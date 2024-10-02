@@ -1,0 +1,73 @@
+/* .timesheet-margin {
+    background: linear-gradient(to bottom, rgba(221, 254, 201, 1), rgba(185, 225, 166, 0));
+    
+}
+
+.top-timesheet-approval-navbar {
+    background-color: #f0f0f0; 
+    padding: 15px; 
+  }
+
+.top-timesheet-approval-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-timesheet-approval-navbar li {
+    display: inline-block;
+    margin-right: 20px; 
+    cursor: pointer;
+}
+
+.top-timesheet-approval-navbar a {
+    text-decoration: none;
+    font-size: 16px; 
+    color: black;
+    background-color: #f0f0f0;
+    
+    width: 130px;
+    font-weight: bold;
+
+}
+
+.top-timesheet-approval-navbar .active {
+    color: red;
+    background-color: black;
+}
+.timesheet-margin{
+    width:100%;
+    transition: all 0.5s ease-in-out;
+} */
+
+/* Timesheetpage.css */
+
+
+/* .timesheet-top-button{
+    margin-right: -50px;
+} */
+.timesheet-create-top-button-btn-link {
+    width: 200px;
+}
+
+.timesheet-create-top-button-btn {
+    width: 200px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background-color: #787DBD;
+    align-items: center;
+}
+
+.timesheet-create-top-button-btn:hover {
+    background-color: #787DBD;
+}
+
+.timesheet-create-top-button-btn-div {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 2px;
+}

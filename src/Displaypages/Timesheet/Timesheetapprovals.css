@@ -1,0 +1,990 @@
+.timesheet-approval-filter-all {
+    margin-right: -35px;
+}
+
+.timesheet-approval-filter-members {
+    width: 180px;
+    border-radius: 5px;
+    background-color: #787DBD;
+    border: none;
+}
+
+.timesheet-approval-filter-members-multiselect {
+    /* padding-top: 8px;
+    padding-bottom: 8px; */
+    padding-left: 10px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: #787DBD;
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.timesheet-approval-filter-members-multiselect .p-multiselect-label {
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-right: 2px solid white;
+}
+
+.timesheet-approval-filter-members-multiselect .p-multiselect-trigger {
+    color: white;
+}
+
+.timesheet-approval-filter-status {
+    width: 180px;
+    border-radius: 5px;
+    background-color: #787DBD;
+    border: none;
+}
+
+.timesheet-approval-filter-status-multiselect {
+    /* padding-top: 8px;
+    padding-bottom: 8px; */
+    padding-left: 10px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: #787DBD;
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-approval-filter-status-multiselect .p-multiselect-label {
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-right: 2px solid white;
+}
+
+.timesheet-approval-filter-status-multiselect .p-multiselect-trigger {
+    color: white;
+}
+
+.timesheet-approval-filter-customperiod {
+    width: 180px;
+    border-radius: 5px;
+    background-color: #787DBD;
+    border: none;
+}
+
+.timesheet-approval-filter-customperiod-multiselect {
+    /* padding-top: 8px;
+    padding-bottom: 8px; */
+    padding-left: 10px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: #787DBD;
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-approval-filter-customperiod-multiselect .p-dropdown-label {
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-right: 2px solid white;
+    /* border: none; */
+}
+
+.p-inputtext {
+    border-radius: 0%;
+}
+
+.timesheet-approval-filter-customperiod-multiselect .p-dropdown-trigger {
+    color: white;
+}
+
+.p-multiselect-panel {
+    width: 230px;
+}
+
+.p-dropdown-panel {
+    width: 180px;
+}
+
+.p-multiselect-panel .p-multiselect-items-wrapper {
+    height: 150px;
+}
+
+/* .p-dropdown-panel .p-dropdown-items-wrapper{
+    height: 150px;
+} */
+.p-multiselect-panel .p-multiselect-items-wrapper .p-multiselect-items .p-checkbox {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 3px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.p-dropdown-panel .p-dropdown-items-wrapper .p-dropdown-items {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 3px;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p-dropdown-panel .p-dropdown-items-wrapper .p-dropdown-item {
+    margin-top: 5px;
+}
+
+.p-multiselect-panel .p-multiselect-header .p-multiselect-filter-container .p-multiselect-filter-icon {
+    right: 0.75rem;
+    top: 0.35rem;
+}
+
+.p-dropdown-panel .p-dropdown-header .p-dropdown-filter-container .p-dropdown-filter-icon {
+    right: 0.75rem;
+    top: 0.35rem;
+}
+
+.timesheet-approval-page-filter-and-export {
+    background-color: #787DBD;
+    border: none;
+    width: 110px;
+    border-radius: 5px;
+}
+
+.timesheet-approval-page-filter-and-export-button {
+    border-radius: 5px;
+    height: 40px;
+    width: 110px;
+    background-color: #787DBD;
+    border: none;
+}
+
+.timesheet-approval-page-filter-and-export-button-div {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 9px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-right: 2px solid white;
+    align-items: center;
+}
+
+.timesheet-weekly-approval-export-download-model-class {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.timesheet-weekly-approval-export-download-model {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -180px;
+    width: 630px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+    /* height: 450px; */
+}
+
+.timesheet-weekly-approval-export-download-modal-body {
+    background-color: white;
+    width: 630px;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+    border-radius: 20px;
+    border: none;
+    padding-left: 50px;
+    padding-right: 30px;
+    /* padding-top: 50px; */
+}
+
+
+
+.timesheet-weekly-approval-export-download-model-title {
+    color: rgba(0, 0, 0, 0.50);
+    /* font-family: "Open Sans"; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    margin-top: 20px;
+}
+
+.timesheet-weekly-approval-export-download-model-title-p {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    /* font-family: "Open Sans"; */
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.76px;
+    padding-top: 15px;
+}
+
+.timesheet-weekly-approval-export-download-model-close-icon {
+    background-color: #FF7F7F;
+    border-radius: 5px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+    padding-left: 4px;
+    /* font-size: 20px; */
+    /* padding-bottom: 30px;
+    margin-top: -30px; */
+}
+
+
+.timesheet-weekly-approval-export-download-empty-line {
+    height: 2px;
+    width: 160px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.timesheet-weekemail-passing-approval-export-format-export {
+    padding-top: 30px;
+}
+
+.email-passing-export-timesheet-week-approval-label {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.format-export-timesheet-week-approval-label {
+    margin-top: 4px;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.email-passing-export-timesheet-week-approval-input {
+    font-size: 12px;
+    outline: none;
+    border: none;
+    width: 200px;
+    padding-left: 5px;
+}
+
+.email-passing-export-timesheet-week-approval-input-and-icon {
+    width: 250px;
+    height: 35px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    padding-left: 8px;
+
+}
+
+.email-passing-export-timesheet-week-approval-icon {
+    color: gray;
+}
+
+.format-export-timesheet-week-approval {
+    margin-right: 40px;
+}
+
+.format-export-timesheet-week-approval-select {
+    /* width: 250px; */
+    height: 35px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+    width: 150px;
+    color: gray;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+}
+
+.timesheet-weekly-approval-export-download-modal-footer {
+    background: rgba(0, 0, 0, 0.10);
+    width: 630px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    margin-left: -50px;
+    margin-bottom: -16px;
+}
+
+.timesheet-weekly-approval-export-download-modal-footer-btn-download {
+    border-radius: 50px;
+    border: 1px solid #787DBD;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25), -2px -2px 8px 0px rgba(255, 255, 255, 0.25);
+    width: 120px;
+    align-items: center;
+    /* margin-left: 100px; */
+}
+
+.timesheet-weekly-approval-export-download-modal-footer-btn-export {
+    border-radius: 50px;
+    border: 1px solid #787DBD;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25), -2px -2px 8px 0px rgba(255, 255, 255, 0.25);
+    width: 100px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.timesheet-weekly-approval-export-download-modal-footer-btn-close {
+    border-radius: 50px;
+    border: 1px solid #787DBD;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25), -2px -2px 8px 0px rgba(255, 255, 255, 0.25);
+    width: 90px;
+    align-items: center;
+    margin-left: 30px;
+    /* margin-right: 80px; */
+}
+
+.timesheet-weekly-approval-export-download-modal-footer-btn-export-icon-container {
+    background-color: white;
+    padding: 1px;
+    width: 22px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.timesheet-weekly-approval-export-download-modal-footer-btn-export-icon {
+    background-color: transparent;
+    color: gray;
+    font-size: 17px;
+}
+
+.timesheet-weekly-approval-export-download-modal-footer-btn-download-icon,
+.timesheet-weekly-approval-export-download-modal-footer-btn-close-icon {
+    color: white;
+    font-size: 20px;
+}
+
+.centered-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.timesheet-weekly-approval-export-download-modal-footer-btn-download-div,
+.timesheet-weekly-approval-export-download-modal-footer-btn-export-div,
+.timesheet-weekly-approval-export-download-modal-footer-btn-close-div {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 8px;
+}
+
+.timesheet-approval-filter-custom-datepicker .timesheet-approval-filter-custom-date-picker::placeholder {
+    color: white;
+
+}
+
+.timesheet-approval-filter-custom-date-picker {
+    height: 40px;
+    width: 250px;
+    padding-left: 10px;
+    background-color: #787DBD;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.timesheet-approval-filter-custom-date-picker-value {
+    padding-top: 10px;
+}
+
+.timesheet-approval-filter-custom-date-picker-icon {
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.timesheet-approval-filter-custom-date-picker-icon-emptyline {
+    width: 1.5px;
+    height: 36px;
+    background-color: #FFF;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+/* .timesheet-approval-table-background{
+    border-radius: 10px;
+    background-color: rgba(243, 243, 243, 0.50);
+    box-shadow: -10px -10px 20px 0px rgba(195, 216, 247, 0.25), 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+} */
+
+
+/* table */
+/* .timesheet-approval-data-table-weekly {
+    background-color: rgba(243, 243, 243, 1) !important;
+    border-radius: 20px;
+    box-shadow: -10px -10px 20px 0px rgba(195, 216, 247, 0.25), 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+} */
+
+.table-responsive {
+    overflow-x: auto;
+    width: auto;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0;
+    background-color: transparent;
+}
+
+.timesheet-approval-data-table {
+    width: 100%;
+    overflow-x: auto;
+    background-color: rgba(243, 243, 243, 0.50) !important;
+    border-radius: 10px !important;
+}
+
+/* .timesheet-approval-data-table-head{
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+} */
+/* .timesheet-approval-data-table-body-tr{
+    
+} */
+.timesheet-approval-data-table th {
+    border-top: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.30) !important;
+}
+
+.timesheet-approval-data-table td {
+    border-top: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.timesheet-approval-data-table-head-th-column-members {
+    position: sticky;
+    left: 0;
+    background-color: rgba(243, 243, 243, 1) !important;
+    /* align-items: center !important; */
+}
+
+.timesheet-approval-data-table-head-th-column-approvalicon {
+    position: sticky;
+    right: 0px;
+    background-color: rgba(243, 243, 243, 1) !important;
+}
+
+
+
+.timesheet-approval-data-table-head-th-column-project,
+.timesheet-approval-data-table-head-th-column-paytype,
+.timesheet-approval-data-table-head-th-column-timeperiods,
+.timesheet-approval-data-table-head-th-column-dates {
+    background-color: rgba(243, 243, 243, 0.50) !important;
+}
+
+.timesheet-approval-data-table-head-th-column-total {
+    position: sticky;
+    right: 140px;
+    background-color: rgba(243, 243, 243, 1) !important;
+}
+
+.timesheet-approval-data-table-head-th-column-div-members,
+.timesheet-approval-data-table-head-th-column-div-project {
+    width: 150px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.timesheet-approval-data-table-head-th-column-div-paytype {
+    width: 150px;
+    text-wrap: nowrap;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.timesheet-approval-data-table-head-th-column-div-timeperiods {
+    width: 180px;
+    text-wrap: nowrap;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.timesheet-approval-data-table-head-th-column-div-dates {
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 13.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* padding-top: 15px; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.timesheet-approval-data-table-head-th-column-div-total {
+    width: 80px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.timesheet-approval-data-table-head-th-column-approvalicon-div {
+    /* width: 80px; */
+    text-align: center;
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.timesheet-approval-data-table-body-td-column-member {
+    position: sticky;
+    left: 0;
+    text-align: center;
+    background-color: rgba(243, 243, 243, 1) !important;
+}
+
+.timesheet-approval-data-table-body-td-column-project,
+.timesheet-approval-data-table-body-td-column-paytype,
+.timesheet-approval-data-table-body-td-column-timeperiods,
+.timesheet-approval-data-table-body-td-column-dates,
+.timesheet-approval-data-table-body-td-column-approvalicon {
+    text-align: center;
+    background-color: rgba(243, 243, 243, 1) !important;
+}
+
+.timesheet-approval-data-table-body-td-column-total {
+    position: sticky;
+    right: 140px;
+    text-align: center;
+    background-color: rgba(243, 243, 243, 1) !important;
+}
+
+.timesheet-approval-data-table-body-td-column-approvalicon {
+    position: sticky;
+    right: 0;
+}
+
+.timesheet-approval-data-table-body-td-column-div-paytype {
+    width: 150px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.timesheet-approval-data-table-body-td-column-div-paytype-regular {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-approval-data-table-body-td-column-div-paytype-overtime {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* .timesheet-approval-data-table-body-td-column-div-paytype-select{
+    width: 70px;
+    border-radius: 5px;
+    background-color: #787DBD;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-image: url("data:image/svg+xml,%3Csvg data-name='Layer 1' fill='white' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3.81 4.38 8 8.57l4.19-4.19 1.52 1.53L8 11.62 2.29 5.91l1.52-1.53z'/%3E%3C/svg%3E");
+} */
+.timesheet-approval-data-table-body-td-column-div-dates,
+.timesheet-approval-data-table-body-td-column-div-total {
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.timesheet-approval-data-table-body-td-column-div-dates-inputs-regular,
+.timesheet-approval-data-table-body-td-column-div-dates-inputs-overtime,
+.timesheet-approval-data-table-body-td-column-div-total-inputs-regular,
+.timesheet-approval-data-table-body-td-column-div-total-inputs-overtime {
+    width: 60px;
+    border: none;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: rgba(243, 243, 243, 1);
+}
+
+.timesheet-approval-data-table-body-td-column-div-dates-inputs-regular::-webkit-inner-spin-button,
+.timesheet-approval-data-table-body-td-column-div-dates-inputs-regular::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.timesheet-approval-data-table-body-td-column-div-dates-inputs-overtime::-webkit-inner-spin-button,
+.timesheet-approval-data-table-body-td-column-div-dates-inputs-overtime::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.timesheet-approval-data-table-body-td-column-div-total-inputs-regular::-webkit-inner-spin-button,
+.timesheet-approval-data-table-body-td-column-div-total-inputs-regular::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.timesheet-approval-data-table-body-td-column-div-total-inputs-overtime::-webkit-inner-spin-button,
+.timesheet-approval-data-table-body-td-column-div-total-inputs-overtime::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.timesheet-approval-data-table-body-td-column-approvalicon-div-button {
+    width: 110px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.timesheet-approval-data-table-body-td-column-approvalicon-div-button-pending {
+    background-color: rgba(255, 165, 0, 0.70);
+}
+
+.timesheet-approval-data-table-body-td-column-approvalicon-div-button-approved {
+    background-color: #38BA7C;
+    
+}
+.timesheet-approval-data-table-body-td-column-approvalicon-div-button-approved-freezed{
+    background-color: rgba(14, 153, 197, 0.65);
+    /* align-items: center; */
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.timesheet-approval-data-table-body-td-column-approvalicon-div-button-rejected {
+    background-color: #FF7F7F;
+}
+
+.timesheet-approval-data-table-body-td-column-approvalicon-div-button-pending:hover {
+    background-color: rgba(255, 165, 0, 0.70);
+}
+
+.timesheet-approval-data-table-body-td-column-approvalicon-div-button-approved:hover {
+    background-color: #38BA7C;
+}
+.timesheet-approval-data-table-body-td-column-approvalicon-div-button-approved-freezed:hover {
+    background-color: rgba(14, 153, 197, 0.65);
+}
+.timesheet-approval-data-table-body-td-column-approvalicon-div-button-rejected:hover {
+    background-color: #FF7F7F;
+}
+
+.timesheet-approval-data-table-body-td-column-approvalicon-div-button-div {
+
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-approval-data-table-body-td-column-div-member,
+.timesheet-approval-data-table-body-td-column-div-project {
+    width: 150px;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+
+.timesheet-approval-data-table-body-td-column-div1-timeperiods {
+    width: 180px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* popup approval page */
+.timesheet-weekly-approval-model {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+
+}
+
+.timesheet-weekly-approval-model-dialog {
+    top: 180px;
+    width: 550px;
+    /* margin: 0 auto; */
+}
+
+.timesheet-weekly-approval-model-content {
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 550px;
+}
+
+.timesheet-weekly-approval-model-title {
+    color: rgba(0, 0, 0, 0.50);
+    /* text-align: center; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.timesheet-weekly-approval-model-comment-textarea-name {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    /* opacity: 0.6; */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    outline: none;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    resize: none;
+    width: 450px;
+
+}
+
+.timesheet-weekly-approval-model-close-icon {
+    background-color: #FF7F7F;
+    border-radius: 5px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    /* margin-top: 20px; */
+    padding-left: 4px;
+}
+
+.timesheet-weekly-approval-model-form-check-label-email {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.timesheet-weekly-approval-model-form-check-label-email-id {
+    color: #787DBD;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-weekly-approval-model-approve-button {
+    border-radius: 5px;
+    background-color: #38BA7C;
+    color: #FFF;
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-weekly-approval-model-approve-button:hover {
+    background-color: #38BA7C;
+}
+.timesheet-weekly-approval-model-approve-button-disabled{
+    background-color: #38BA7C !important;
+    pointer-events: auto !important;
+    cursor: not-allowed !important;
+}
+.timesheet-weekly-approval-model-reject-button {
+    border-radius: 5px;
+    background-color: #FF7F7F;
+    color: #FFF;
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-weekly-approval-model-reject-button:hover {
+    background-color: #FF7F7F;
+}
+.timesheet-weekly-approval-model-reject-button-disabled{
+    background-color: #FF7F7F !important;
+    pointer-events: all !important;
+    cursor: not-allowed !important;
+}
+.timesheet-weekly-approval-model-discardapproval-button {
+    border-radius: 5px;
+    background-color: #FF7F7F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 120px;
+    height: 35px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-wrap: nowrap;
+}
+
+.timesheet-weekly-approval-model-discardapproval-button:hover {
+    background-color: #FF7F7F;
+}
+
+.timesheet-weekly-approval-model-discardapproval-button-disabled{
+    background-color: #FF7F7F !important;
+    pointer-events: all !important;
+    cursor: not-allowed !important;
+}
+.timesheet-weekly-approval-model-freezed-approval-button{
+    border-radius: 5px;
+    background-color: rgba(14, 153, 197, 0.65);
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 35px;
+}
+.timesheet-weekly-approval-model-freezed-approval-button:hover{
+    background-color: rgba(14, 153, 197, 0.65);
+    color: #FFF;
+}
+.timesheet-weekly-approval-model-un-freezed-approval-button{
+    border-radius: 5px;
+    background-color: #FF7F7F;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 35px;
+}
+.timesheet-weekly-approval-model-un-freezed-approval-button:hover{
+    background-color: #FF7F7F;
+    color: #FFF;
+}
+.timesheet-weekly-approval-model-history-of-approvals-heading {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.timesheet-weekly-approval-model-history-of-approvals-p {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.timesheet-weekly-approval-export-download-model-dialog {
+    justify-content: center !important;
+    left: 550px !important;
+    bottom: -100px !important;
+    position: fixed !important;
+}

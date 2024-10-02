@@ -1,0 +1,655 @@
+.back-button-icon-timesheet-biweekly-icon {
+    margin-top: 2px;
+}
+
+.back-button-icon-timesheet-biweekly-p {
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 25px;
+    font-style: normal; 
+    font-weight: 600;
+    line-height: normal;
+}
+.employee-name-timesheet-biweekly {
+    margin-left: 20px;
+}
+.employee-name-timesheet-biweekly-label,
+.employee-ID-timesheet-biweekly-label,
+.employee-status-timesheet-biweekly-label,
+.employee-current-date-timesheet-biweekly-label,
+.employee-select-biweekly-timesheet-calendar-label {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.employee-reported-hours-timesheet-biweekly-label {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.employee-name-timesheet-biweekly-box-input,
+.employee-ID-timesheet-biweekly-box-input {
+    width: 180px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.employee-status-timesheet-biweekly-box-input {
+    width: 160px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.employee-current-date-timesheet-biweekly-box-input {
+    width: 205px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.employee-current-date-timesheet-biweekly-box-input-icon {
+    margin-top: -3px;
+}
+
+.employee-select-biweekly-timesheet-calendar-box-input {
+    /* width: 280px; */
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.employee-reported-hours-timesheet-biweekly-box-input {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.timesheet-biweekly-calendar-wrapper-date-picker {
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.custom-date-picker-input{
+    display: flex;
+    align-items: center;
+}
+.custom-date-picker-input-arrow{
+    background-color: #787DBD;
+    border-radius: 15px;
+    opacity: 0.5;
+}
+.custom-date-picker-input-arrow:hover{
+    opacity: 1;
+}
+.custom-date-picker-input-icon {
+    margin-top: -3px;
+}
+.employee-add-entries-details-biweekly-timesheet {
+    margin: 15px;
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 5px;
+}
+.table-responsive {
+    overflow-x: auto;
+}
+.custom-table-biweekly th,
+.custom-table-biweekly td {
+    border: none;
+}
+.custom-table-header-biweekly-timesheet-entries-project{
+    background-color: #787DBD !important;
+    /* width: 60px; */
+    color: white !important;
+    white-space: nowrap;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 16px;
+    text-align: start;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.custom-table-header-biweekly-timesheet-entries-task {
+    background-color: #787DBD !important;
+    /* width: 60px; */
+    color: white !important;
+    white-space: nowrap;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 3px !important;
+    padding-right: 20px !important;
+    font-size: 16px;
+    text-align: start;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.employee-add-entries-details-biweekly-timesheet-table-head th:nth-child(1) {
+    position: sticky;
+    left: 0;
+}
+.employee-add-entries-details-biweekly-timesheet-table-head th:nth-child(3) {
+    position: sticky;
+    left: 225px;
+}
+.employee-add-entries-details-biweekly-timesheet-table-body td:nth-child(1){
+    left: 0;
+    z-index: 900;
+}
+.employee-add-entries-details-biweekly-timesheet-table-body td:nth-child(3){
+    position: sticky;
+    left: 225px;
+}
+.employee-add-entries-details-biweekly-timesheet-table-body-total td:nth-child(1){
+    position: sticky;
+    left: -215px;
+}
+.custom-table-header-biweekly-timesheet-entries {
+    background-color: #787DBD !important;
+    /* width: 60px; */
+    color: white !important;
+    white-space: nowrap;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.custom-table-header-biweekly-timesheet-entries-delete{
+    background-color: #787DBD !important;
+    /* width: 60px; */
+    color: white !important;
+    white-space: nowrap;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: sticky;
+    right: 0;
+
+}
+.custom-table-header-biweekly-timesheet-entries-total{
+    background-color: #787DBD !important;
+    /* width: 60px; */
+    color: white !important;
+    white-space: nowrap;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: sticky;
+    right: 40px;
+
+}
+#my-tooltip-comment{
+    max-width: 500px;
+    overflow-wrap: break-word;
+    white-space: normal; 
+    overflow: hidden;
+}
+.timesheet-biweekly-add-hours-box-label {
+    width: 60px;
+    text-align: center;
+
+}
+.custom-table-body-biweekly-timesheet-entries {
+    text-decoration: none !important;
+    background-color: #EEECEC !important;
+    border: none !important;
+}
+.custom-table-body-biweekly-timesheet-entries-total{
+    text-decoration: none !important;
+    background-color: #EEECEC !important;
+    border: none !important;
+    position: sticky;
+    right: 40px;
+}
+.custom-table-body-biweekly-timesheet-entries-delete{
+    text-decoration: none !important;
+    background-color: #EEECEC !important;
+    border: none !important;
+    position: sticky;
+    right: 0;
+}
+.custom-table-body-biweekly-timesheet-entries-rg-total,
+.custom-table-body-biweekly-timesheet-entries-ot-total,
+.custom-table-body-biweekly-timesheet-entries-final-total{
+    text-decoration: none !important;
+    background-color: #EEECEC !important;
+    border: none !important;
+    position: sticky;
+    right: 0;
+}
+.timesheet-biweekly-select-project-id-display-label{
+    width: 180px;
+    /* height: 50px; */
+    margin-top: 14px;
+    color: rgba(0, 0, 0, 0.50);
+    /* text-align: center; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.timesheet-biweekly-select-project-id-display-label .css-13cymwt-control {
+    background-color: transparent;
+    border: none;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.20); */
+    border-radius: 0;
+}
+.timesheet-biweekly-select-project-id-display-label .css-1nmdiq5-menu{
+    height: 150px;
+    overflow-y: auto;
+}
+.timesheet-biweekly-select-project-id-display-label .css-t3ipsp-control{
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+.timesheet-biweekly-select-project-id-display-label .css-13cymwt-control .css-1u9des2-indicatorSeparator {
+    background-color: transparent;
+}
+
+.timesheet-biweekly-select-task-id-display-label{
+    width: 180px;
+    margin-top: 14px;
+    color: rgba(0, 0, 0, 0.50);
+    /* text-align: center; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.timesheet-biweekly-select-task-id-display-label .css-13cymwt-control {
+    background-color: transparent;
+    border: none;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.20); */
+    border-radius: 0;
+}
+.timesheet-biweekly-select-task-id-display-label .css-t3ipsp-control{
+    background-color: transparent;
+}
+.timesheet-biweekly-select-task-id-display-label .css-1nmdiq5-menu{
+    height: 150px;
+    overflow: auto;
+}
+.timesheet-biweekly-select-task-id-display-label .css-13cymwt-control .css-1u9des2-indicatorSeparator {
+    background-color: transparent;
+}
+.timesheet-biweekly-add-new-pay-type-icon{
+    margin-top: 5px;
+}
+.timesheet-biweekly-pay-type-select {
+    margin-top: 20px;
+    height: 30px;
+    text-align: center;
+    width: 60px;
+    font-size: 13px;
+    background-color: #787DBD;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+    padding-right: 30px;
+    /* background: blue url('arrow.svg') no-repeat right; */
+    background-image: url("data:image/svg+xml,%3Csvg data-name='Layer 1' fill='white' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3.81 4.38 8 8.57l4.19-4.19 1.52 1.53L8 11.62 2.29 5.91l1.52-1.53z'/%3E%3C/svg%3E");
+}
+.timesheet-biweekly-add-hours-box{
+    margin-top: 11px;
+}
+.timesheet-biweekly-add-hours-box-show {
+    height: 45px;
+    width: 40px;
+    margin-left: 23px;
+    border: none;
+    text-align: center;
+    background-color: #EEECEC;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.50);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    outline: none;
+}
+
+.timesheet-biweekly-add-hours-box-show::-webkit-inner-spin-button,
+.timesheet-biweekly-add-hours-box-show::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.search-biweekly {
+    margin-top: -70px;
+}
+
+.timesheet-biweekly-comment-text-model {
+    width: 400px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: -5px -5px 5px 0px rgba(14, 153, 197, 0.08), 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.timesheet-biweekly-comment-text-model-title-name {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-biweekly-comment-text-model-title-date {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-biweekly-comment-text-model-title-close-icon {
+    width: 25px;
+    height: 25px;
+    padding-left: 4.5px;
+    border-radius: 5px;
+    background: #FF7F7F;
+}
+
+.timesheet-biweekly-comment-text-model-title-emptyline {
+    width: 350px;
+    height: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.50);
+    opacity: 0.3;
+}
+
+.timesheet-biweekly-comment-text-model-share-comment {
+    margin-top: 15px;
+    margin-right: 17px;
+    color: #38BA7C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    border: 1px solid #38BA7C;
+    /* opacity: 0.5; */
+}
+.timesheet-biweekly-comment-textarea-name {
+    width: 350px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    resize: none;
+    background-color: #FFF;
+    /* box-shadow: -5px -5px 5px 0px rgba(14, 153, 197, 0.08), 5px 5px 5px 0px rgba(0, 0, 0, 0.25); */
+    color: rgba(0, 0, 0, 0.50);
+    padding: 8px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.timesheet-biweekly-add-total-hours-box{
+    margin-top: 11px;
+}
+.timesheet-biweekly-add-total-hours-box-show {
+    height: 45px;
+    border: none;
+    text-align: end;
+    background-color: #EEECEC;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 40px;
+    outline: none;
+    /* padding-left: 25px; */
+}
+.timesheet-biweekly-add-new-work-hours-icon-display-delete-icon {
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.timesheet-biweekly-regular-hours-calculation{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-right: 12px;
+    margin-top: 35px;
+}
+
+.timesheet-biweekly-overtime-hours-calculation,
+.timesheet-biweekly-total-hours-calculation {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-right: 12px;
+    margin-top: 15px;
+    /* padding-left: 5px; */
+}
+
+.timesheet-biweekly-regular-hours-calculation-final{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-right: 40px;
+    margin-top: 35px;
+}
+.timesheet-biweekly-overtime-hours-calculation-final,
+.timesheet-biweekly-total-hours-calculation-final {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-right: 40px;
+    margin-top: 15px;
+}
+/* .empty-space-color-table {
+    height: 30px;
+    background-color: #EEECEC !important;
+} */
+.copy-last-biweekly-activity-select-option-form {
+    color: rgba(0, 0, 0, 0.60);
+    width: 220px;
+    height: 35px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    /* background: var(--inner_bg, rgba(243, 243, 243, 0.50)); */
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+    line-height: normal;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='7' viewBox='0 0 12 7' fill='none'%3E%3Cpath d='M1 1L6 6L11 1' stroke='black' stroke-opacity='0.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-color: rgba(243, 243, 243, 0.50);
+}
+
+.copy-last-biweekly-activity-save-button {
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.50) inset;
+}
+
+.copy-last-biweekly-activity-save-button-and-icon {
+    height: 30px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: -1px -1px 4px 0px rgba(255, 255, 255, 0.25), 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.copy-last-biweekly-activity-save-button-div {
+    /* background-color: transparent; */
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.timesheet-biweekly-submit-save-cancel-button {
+    margin-right: 25px;
+}
+.timesheet-biweekly-button-submit {
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    /* background: #38BA7C !important; */
+    margin-right: 30px;
+    border: 1px solid #38BA7C;
+    /* opacity: 0.5; */
+}
+
+.timesheet-biweekly-button-submit:hover {
+    border: 1px solid #38BA7C;
+}
+
+.timesheet-biweekly-button-submit-div {
+    color: #38BA7C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    margin-top: 1px;
+}
+.timesheet-biweekly-button-save {
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #787DBD;
+    margin-right: 30px;
+    /* opacity: 0.5; */
+}
+
+.timesheet-biweekly-button-save:hover {
+    border: 1px solid #787DBD;
+}
+
+.timesheet-biweekly-button-save-div {
+    color: #787DBD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1px;
+}
+.timesheet-biweekly-button-reset {
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #FF7F7F;
+
+}
+
+.timesheet-biweekly-button-reset:hover {
+    border: 1px solid #FF7F7F;
+}
+
+.timesheet-biweekly-button-reset-div {
+    color: #FF7F7F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1px;
+}

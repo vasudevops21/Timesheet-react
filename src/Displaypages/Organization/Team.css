@@ -1,0 +1,91 @@
+.teams-margin {
+  width: 100%;
+  height: calc(100vh - 64px); /* Subtracting any top bar or header height */
+  overflow: auto; /* Enable vertical scrolling */
+ 
+}
+ 
+.mui_teams {
+  max-height: 520px !important;
+  min-height: 520px !important;
+}
+ 
+.teams_add_btn {
+  border-radius: 5px !important;
+  background: var(--side_bar, #787DBD) !important;
+  border: none;
+  color: white;
+  text-wrap: nowrap;
+}
+ 
+.icon_teams {
+  font-size: 14px !important;
+  height: 40px;
+  color: white;
+  padding-top: 12px !important;
+  border-radius: 5px 0px 0px 5px;
+  background: var(--search_bg, #aaadda);
+}
+   
+   .custom_search_icon {
+     position: absolute;
+     margin-left: 10px;
+     margin-top: 10px;
+     background-color: white;
+   }
+   
+   .search_input {
+     width: 100%;
+     border: none;
+     outline: none;
+     border-radius: 5px;
+     background: var(--screen, #FFF);
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+   
+   @media (max-width: 767px) {
+     /* Small screens (mobile) */
+     .search_input {
+       width: 250px;
+       height: 40px;
+       padding-left: 30px;
+       padding-right: 30px;
+     
+     }
+   
+     .custom_search_close_icon {
+       position: absolute !important;
+       margin-left: 225px !important;
+     }
+   }
+   
+   @media (min-width: 768px) and (max-width: 991px) {
+     /* Medium screens (tablets) */
+     .search_input {
+       width: 350px;
+       height: 40px;
+       padding-left: 30px;
+       padding-right: 30px;
+     }
+   
+     .custom_search_close_icon {
+       position: absolute !important;
+       margin-left: 325px !important;
+     }
+   }
+   
+   @media (min-width: 992px) {
+     /* Large screens (desktops) */
+     .search_input {
+       width: 350px;
+       height: 40px;
+       padding-left: 30px;
+       padding-right: 30px;
+     }
+   
+     .custom_search_close_icon {
+       position: absolute !important;
+       margin-left: 318px !important;
+     }
+   }
+ 

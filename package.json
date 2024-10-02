@@ -1,0 +1,96 @@
+{
+  "name": "new-time-agt",
+  "version": "0.1.0",
+  "private": true,
+  "home page": "http://localhost/reactapp/",
+  "dependencies": {
+    "@emotion/react": "^11.12.0",
+    "@emotion/styled": "^11.12.0",
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.15.11",
+    "@mui/lab": "^5.0.0-alpha.166",
+    "@mui/material": "^5.16.4",
+    "@mui/styled-engine": "^5.15.3",
+    "@mui/styles": "^5.15.11",
+    "@mui/x-data-grid": "^6.19.5",
+    "@mui/x-data-grid-generator": "^6.19.5",
+    "@mui/x-data-grid-pro": "^6.19.5",
+    "@mui/x-date-pickers": "^6.18.7",
+    "@stripe/react-stripe-js": "^2.7.3",
+    "@stripe/stripe-js": "^4.1.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.2",
+    "chart.js": "^4.4.3",
+    "date-fns": "^3.6.0",
+    "dayjs": "^1.11.10",
+    "docx": "^8.5.0",
+    "file-saver": "^2.0.5",
+    "jspdf-autotable": "^3.8.2",
+    "libphonenumber-js": "^1.10.57",
+    "lucide-react": "^0.441.0",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
+    "mui-datatables": "^4.3.0",
+    "multiselect-react-dropdown": "^2.0.25",
+    "primereact": "^10.5.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.0",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-calendar": "^4.7.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-datepicker": "^4.25.0",
+    "react-dom": "^18.2.0",
+    "react-flag-icon-css": "^1.0.25",
+    "react-icons": "^5.0.1",
+    "react-image-crop": "^11.0.5",
+    "react-intl": "^6.6.3",
+    "react-modal": "^3.16.1",
+    "react-multi-select-component": "^4.3.4",
+    "react-phone-input-2": "^2.15.1",
+    "react-router-dom": "^6.21.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.8.0",
+    "react-toastify": "^10.0.5",
+    "react-tooltip": "^5.26.4",
+    "react-user-avatar": "^1.10.0",
+    "reactjs-popup": "^2.0.6",
+    "semantic-ui-react": "^2.1.5",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}

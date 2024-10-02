@@ -1,0 +1,62 @@
+
+.expense-margin {
+    width: 100%;
+    height: calc(100vh - 64px); /* Subtracting any top bar or header height */
+    overflow: hidden;
+  }
+
+.expense_btn{
+    border-radius: 5px;
+background: linear-gradient(93deg, #787DBD 0%, rgba(74, 186, 222, 0.88) 100%);
+color: white;
+
+}
+
+
+.expense_category_icon {
+    border-radius: 5px;
+background: var(--side_bar, #787DBD);
+color: white;
+}
+
+.expense_teammates_select{
+    border-radius: 5px;
+background: var(--side_bar, #787DBD);
+color: white;
+}
+
+.expense_add_icon {
+
+        font-size: 14px !important;
+        /* height: 20px;
+        width: 20px; */
+        color: blue;
+        background-color: white;
+        border-radius: 50%;
+
+}
+
+.category_border{
+    border-radius: 50px;
+background: var(--screen, #FFF);
+box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25), -10px -10px 20px 0px rgba(195, 216, 247, 0.25);
+/* margin-right: 300px !important; */
+/* margin-left: 50px;
+margin-right: 50px; */
+
+}
+
+.category_table_edit{
+    border-radius: 5px;
+background: var(--primary-button, rgba(22, 68, 229, 0.64));
+box-shadow: 0px 4px 4px 0px var(--drop_shadow, rgba(0, 0, 0, 0.25));
+color: white;
+}
+
+.category_table_delete{
+    border-radius: 5px;
+background: var(--cancel, rgba(255, 71, 76, 0.75));
+box-shadow: 0px 4px 4px 0px var(--drop_shadow, rgba(0, 0, 0, 0.25));
+color: white;
+}
+

@@ -1,0 +1,463 @@
+.margin1 {
+  margin-top: 20px;
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+.background1 {
+  background: linear-gradient(to bottom, #cdc4fd, rgba(202, 229, 189, 0));
+}
+
+.test {
+  font-weight: 100;
+}
+
+.customDataGrid {
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.header-small {
+  font-size: 20px;
+}
+
+.header-medium {
+  font-size: 14px;
+}
+
+.header-large {
+  font-size: 14px;
+}
+
+.custom-dialog-content {
+  font-size: 20px;
+}
+
+.custom-row {
+  font-size: 16px;
+}
+
+.selected-row {
+  background-color: #e0e0e0;
+}
+
+.margin {
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.edit {
+  flex-direction: column;
+}
+
+.MuiDataTable-root {
+  font-size: 14px;
+}
+
+.MuiDataTableHeadCell-root {
+  font-size: 16px;
+}
+
+.MuiDataTableBodyCell-root {
+  font-size: 14px;
+}
+
+.sidebar {
+  display: flex;
+}
+
+.popup {
+  width: 862px;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2),
+    0 6px 20px 4px rgba(0, 0, 0, 0.19);
+}
+
+hr1 {
+  height: 2px;
+  width: 15%;
+
+  background-color: #28c6d1;
+}
+
+.popup1 {
+  border: #787dbd;
+  border-radius: 5px;
+}
+
+.custom-multiselect .option {
+  background-color: white;
+}
+
+.custom-multiselect .chips {
+  background: #ccc;
+}
+
+.custom-multiselect .icon-class {
+  color: red !important;
+}
+
+.custom_badge {
+  padding-right: 5px;
+  height: 20px;
+  position: absolute;
+  border-radius: 12px;
+  background: white;
+  color: balck;
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400;
+  font-family: arial, sans-serif;
+  margin-left: 10px;
+  padding-top: 0px !important;
+  letter-spacing: 2.8px;
+}
+.custom_input-customers {
+  text-align: start !important;
+  color: #161717 !important;
+  padding-top: 20px !important;
+}
+
+.input1 {
+  height: 50px !important;
+  font-size: 15px !important;
+}
+
+.Client-margin {
+  width: 100%;
+  height: calc(100vh - 64px);
+  overflow: hidden;
+}
+
+.mui {
+  margin-top: 40px !important;
+}
+
+.centeredHeaderCell span {
+  justify-content: center;
+}
+
+.client-popup {
+  max-width: 60%;
+}
+
+.form {
+  overflow: hidden;
+}
+
+.client_table table tr th:first-child {
+  content: "";
+  border-top-left-radius: 10px;
+}
+.client_table table tr th:last-child {
+  content: "";
+  border-top-right-radius: 10px;
+}
+.client_table table tr td {
+  border: 0px solid;
+}
+.client_table table tbody {
+  background: #eeecec;
+}
+.client_table table th {
+  border: 0px solid;
+}
+.client_table table tr td:last-child {
+  content: "";
+  background: #eeecec;
+}
+.client_table table tr th {
+  background: transparent;
+  background-color: transparent !important;
+}
+.client_table table thead tr {
+  background: #787dbd;
+  border-top-right-radius: 10px;
+}
+.client_table table tr th:last-child {
+  content: "";
+  background-color: #787dbd !important;
+}
+/* .client_table table tr th:nth-child(10) {
+  content: "";
+  border-top-right-radius: 10px;
+} */
+.client_table table tr {
+  margin: 0px 10px;
+}
+.client_table .MuiPaper-elevation div:nth-child(3) {
+  content: "";
+  margin: 0px 20px;
+  background: #eeecec;
+  /* background-color:#787DBD; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular div {
+  background-color: transparent !important;
+}
+.client_table .MuiPaper-elevation div:nth-child(3)::-webkit-scrollbar {
+  border-radius: 100px;
+  background-color: #eeecec;
+  height: 10px;
+  width: 10px;
+}
+
+/* Track */
+.client_table .MuiPaper-elevation div:nth-child(3)::-webkit-scrollbar-track {
+  background: #fff;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+
+/* Handle */
+.client_table .MuiPaper-elevation div:nth-child(3)::-webkit-scrollbar-thumb {
+  background: #787dbd;
+  border-radius: 100px;
+  margin-left: 10px;
+  width: 183px;
+}
+
+/* Handle on hover */
+.client_table
+  .MuiPaper-elevation
+  div:nth-child(3)::-webkit-scrollbar-thumb:hover {
+  background: #787dbd;
+  border-radius: 100px;
+}
+.client_table .MuiTableCell-head .MuiCheckbox-root {
+  color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+.client_table .MuiTableCell-head div {
+  justify-content: center;
+}
+.client_table .MuiTableCell-body div {
+  justify-content: center;
+}
+.client_table .Mui-checked {
+  position: relative;
+}
+.client_table .MuiTableCell-head .Mui-checked:after {
+  content: "";
+  background: url("../../img/tick.png") no-repeat scroll center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+}
+.client_table .MuiTableCell-body .Mui-checked:after {
+  content: "";
+  background: url("../../img/tick.png") no-repeat scroll center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+}
+.client_table .MuiCheckbox-root svg {
+  opacity: 0;
+}
+.client_table .MuiTableCell-body .MuiCheckbox-root {
+  color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.client_table table thead tr th {
+  background-color: #787dbd !important;
+  color: white;
+}
+
+.mui_Customer {
+  max-height: 515px !important;
+  min-height: 515px;
+}
+
+.MuiPaper-elevation4 {
+  border-radius: 25px !important;
+  box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.2),
+    5px 6px 20px 5px rgba(0, 0, 0, 0.19) !important;
+}
+
+.client_pagination {
+  margin-top: 20px !important;
+
+  justify-content: end !important;
+}
+
+/* .MuiFormControl-root {
+  padding: 20px !important;
+} */
+
+.count {
+  outline: 0 !important;
+  border: none;
+  border-radius: 5px !important;
+
+  box-shadow: 0px 3px #888888 !important;
+}
+
+.count1 {
+  outline: 0 !important;
+  border: none;
+  border-radius: 5px !important;
+
+  box-shadow: 0px 3px #888888 !important;
+}
+
+.icon_customer {
+  font-size: 14px !important;
+  height: 40px;
+  color: white;
+ padding-top: 12px !important;
+  border-radius: 5px 0px 0px 5px;
+  /* opacity: 0.4; */
+  background: var(--search_bg, #aaadda);
+}
+
+.icon_customer_add {
+  font-size: 14px !important;
+  height: 20px;
+  width: 20px;
+  color: white;
+  border-radius: 50%;
+  padding-top: 2.5px;
+}
+
+.icon_customer_cancel {
+  font-size: 14px !important;
+  height: 20px;
+  width: 20px;
+  color: #FF7F7F;
+  border-radius: 50%;
+  padding-top: 2.5px;
+}
+
+.customer_cancel_button {
+  border-radius: 5px;
+  border: 1px solid var(--cancel, #FF7F7F);
+  color: #FF7F7F;
+}
+
+.customer_add_button {
+  border-radius: 5px;
+  background: var(--v-side-bar, #787DBD); 
+  color: white;
+}
+
+.hr {
+  height: 2px;
+  width: 250px;
+
+  background: rgba(13, 13, 13, 0.881);
+}
+
+.popup_sub {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+}
+
+.popup_header {
+  font-size: 25px;
+  letter-spacing: 1.8px;
+  font-weight: 700px;
+}
+
+.customer_add_button {
+  border-radius: 5px !important;
+  background: var(--side_bar, #787DBD) !important;
+  border: none;
+  /* height: 40px; */
+  color: white;
+  text-wrap: nowrap;
+}
+
+.tss-1ufdzki-MUIDataTableSearch-main{
+  justify-content: center !important;
+
+  margin-right: -0px !important;
+  width: 400px !important;
+  height: 40px;
+  text-align: end !important;
+  margin-left: 600px;
+  border-radius: 5px;
+background: var(--screen, #FFF);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ 
+}
+ 
+ 
+ 
+ 
+.tss-qbo1l6-MUIDataTableToolbar-actions {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+
+.customer_head {
+  color: var(--tab_menu, #787DBD);
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 50px;
+letter-spacing: 1px;
+}
+
+.client_edit_btn {
+  border-radius: 5px;
+  background: #ffa500;
+  color: white;
+  box-shadow: 0px 4px 4px 0px var(--drop_shadow, rgba(0, 0, 0, 0.25));
+}
+
+.loading-client {
+  margin-left: 47%;
+  position: absolute;
+
+}
+
+.filter_btn{
+  color: #211f1ea8;
+ }
+
+
+ .client_popup{
+  background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+}
+
+
+.customer_contact_label{
+  z-index: 1000 !important;
+  padding-right: 5px;
+  height: 30px;
+  position: absolute;
+  margin-top: -15px;
+  border-radius: 12px;
+  /* -webkit-border-radius:12px; */
+  background: white;
+  color: balck;
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: arial, sans-serif;
+  margin-left: 10px;
+  padding-top: 3px;
+  letter-spacing: 2.8px;
+ }

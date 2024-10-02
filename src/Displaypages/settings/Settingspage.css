@@ -1,0 +1,107 @@
+.settings-fullbody{
+    background-color:white ;
+    margin-left: 20px;
+}
+
+
+.settings-topbar-iconandtext {
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+
+
+
+.settings-topbar-heading {
+    margin-left: 65px;
+    margin-bottom: 0;
+    margin-top: -40px;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+
+.settings-topbar-text {
+    margin-left: 65px;
+    margin-top: 0px;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+
+
+.settings-category{
+margin-top: 20px;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.settings-category-list.nav{
+    color: none;
+}
+.active-setting-link{
+    border-bottom-left-radius:0px;
+ color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-tabs .nav-item.show .active-setting-link, .nav-tabs .nav-link.active{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.settings-category-list-element{
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.settings-category-UserAccessControl {
+    margin-left: 100px;
+    text-align: center;
+}
+
+.settings-category-Integration {
+    margin-left: 100px;
+}
+
+.settings-category-Customization {
+    margin-left: 100px;
+}
+
+.settings-category-DataAdministration {
+    margin-left: 100px;
+}
+
+.settings-category-Holidays {
+    margin-left: 100px;
+}
+
+.settings-category-list{
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.settings-category-line {
+    margin-top: 5px;
+
+    width: 110%;
+}
+
+
+.settings-topbar-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+/* .settings-category-list .highlighted {
+    border-top: 1px solid #808080;
+    border-right: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-bottom: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+} */
+
+
+.hidden {
+    display: none;
+}

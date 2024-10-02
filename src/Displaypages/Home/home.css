@@ -1,0 +1,172 @@
+.dashboard {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+  width: 100%;
+  height: calc(100vh - 64px); /* Subtracting any top bar or header height */
+  overflow: auto;
+}
+ 
+/* .summary {
+  display: flex;
+  margin-bottom: 20px;
+}
+ 
+.summary-item {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+ 
+.summary-item .icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+ 
+.summary-item h3 {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+ 
+.summary-item p {
+  margin: 5px 0 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+ 
+.approved { color: #00b894; }
+.pending { color: #fdcb6e; }
+.rejected { color: #ff7675; }
+.not-submitted { color: #636e72; }
+ 
+ 
+.charts {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+ 
+.chart-container h4 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+ 
+ 
+ 
+.bar-chart {
+  width: 650px;
+  min-width: 200px;
+  max-width: 650px;
+  height: 350px;
+}
+ 
+.doughnut-chart {
+  width: 300px;
+  max-width: 300px;
+  min-width: 100px;
+  height: 250px;
+}
+ 
+.bar-chart, .doughnut-chart {
+  padding: 10px;
+ 
+}
+ 
+.table_dashboard {
+  background-color: white;
+  border-collapse: collapse;
+ 
+}
+ 
+.table_emp {
+  height: 670px;
+  overflow: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+ 
+.table_dashboard th, td {
+  text-align: center !important;
+  border-bottom: 1px solid #ddd;
+}
+ 
+.table_dashboard th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+ 
+.table_dashboard tr:hover {
+  background-color: #f5f5f5;
+}
+ 
+ 
+ 
+ 
+ 
+.doughnut-legend-container {
+  display: flex;
+  background-color: white;
+  margin-top: 20px;
+}
+ 
+ 
+ 
+.chart-legend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+ 
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+ 
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+ 
+.legend-label {
+  font-size: 14px;
+}
+ 
+.dashboard_timesheet_head{
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.label{
+  font-size: 15px;
+}
+ 
+.dashboard_select {
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+ 
+.value {
+  margin-left: 5px;
+}
+ 
+.search_dashboard {
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+  */

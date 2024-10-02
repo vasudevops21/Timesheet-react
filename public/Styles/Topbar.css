@@ -1,0 +1,141 @@
+
+*{
+        margin: 0%;
+        
+        padding: 0%;
+        box-sizing: border-box;
+        
+       
+    }
+    
+    .Top-bar{
+        /* display: flex; */
+        background:#fff;
+        max-width: 100%;
+        /* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
+        box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.4);
+        /* z-index: 1000; */
+        /* position: fixed; */
+    }
+
+    .AGTlogo{
+        padding: 10px;
+        max-width: 250px;  
+        width: 100%; 
+    }
+    
+
+    #searchbox {
+        width: 300px;
+        padding: 8px;
+        transition: all 0.3s;
+        font-size: 14px;
+        /* margin: auto; */
+        border-radius: 50px;
+        border: 1px solid rgba(0, 0, 0, 0.33);
+        background: rgba(217, 217, 217, 0.00);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: black;
+        position: relative;
+    }
+     
+    #searchbox:focus {
+        width: 500px; 
+        /* padding-right: 16px; */
+        padding-left: 16px;
+        outline: none; 
+    }
+    
+    
+    .search-icon {
+        position: absolute;
+        top: 50%;
+        right: 0px; 
+        transform: translateY(-50%);
+        width: 35px; 
+        height: 35px; 
+        background: url('../img/search.png') no-repeat center center;
+        background-size: cover;
+        cursor: pointer;
+    }
+    .search-container {
+        position: relative;
+        /* display: inline-block; */
+    }
+    .search-item{
+        display: flex;
+        /* margin: 0; */
+    }
+    .settings-icon {
+        margin: 10px;
+        width: 30px;
+        cursor: pointer; /* Add cursor pointer for user interaction */
+    }
+    .notification-icon {
+        margin: 10px;
+        width: 30px;
+        cursor: pointer; /* Add cursor pointer for user interaction */
+    }
+    
+    .profile-icon {
+        margin: 10px;
+        width: 30px;
+        cursor: pointer; /* Add cursor pointer for user interaction */
+    }
+
+    @media screen and (max-width: 1200px) {
+        /* xl size */
+        .AGTlogo {
+            max-width: 200px;
+        }
+        .settings-icon{
+            width: 25px;
+        }
+        .notification-icon{
+            width: 25px;
+        }
+        .profile-icon{
+            width: 25px;
+        }
+        #searchbox{
+            width: 250px;
+        }
+        #searchbox:focus{
+            width: 350px; 
+        }
+        
+
+    }
+    
+    @media screen and (max-width: 768px) {
+        /* md size */
+        .AGTlogo {
+            max-width: 150px;
+        }
+        .settings-icon{
+            width: 20px;
+        }
+        .notification-icon{
+            width: 20px;
+        }
+        .profile-icon{
+            width: 20px;
+        }
+        #searchbox{
+            width: 150px;
+        }
+        #searchbox:focus{
+            width: 180px; 
+        }
+
+        .justify-item{
+            align-items: center;
+            justify-content: end;
+        }     
+    }
+
+    .container {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+

@@ -1,0 +1,754 @@
+.roles>ul {
+  display: flex;
+  list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  margin-left: 70px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.roles>ul>li {
+  margin-right: 80px;
+  /* Adds some space between list items */
+  cursor: pointer;
+}
+
+
+.roles>ul>li.selected {
+  border-bottom: 2px solid blue;
+  /* Adjusts the thickness and color of the underline */
+  padding-bottom: 10px;
+  /* Optional: Adjusts the spacing between text and underline */
+}
+
+.setting-con {
+  /* position: fixed; */
+  background-color: white;
+  /* margin-top: 3px; */
+  /* margin-left: 60px !important; */
+  /* width: 100%; */
+  /* height: 60%; */
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
+  margin-top: 10px;
+  height: 480px;
+  padding-bottom: 40px !important;
+  width: 93%;
+  padding-top: 25px;
+
+  overflow: auto;
+
+
+}
+
+
+
+
+/* default-roles.css */
+.default-roles {
+  justify-content: center !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 0px));
+  margin-top: 60px;
+}
+
+.disabled {
+  font-size: 11px;
+  margin-left: 63px;
+  margin-top: -28px;
+  padding: 10px;
+  cursor: not-allowed;
+  border: none;
+  color: white;
+  text-decoration: none !important;
+}
+
+
+.custom-roles {
+  justify-content: center !important;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 0px));
+}
+
+.edit-role-delete-div {
+  background-color: #787DBD;
+  margin-left: 188px;
+  margin-top: -7px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 15px;
+
+}
+
+
+.edit-role-button {
+  border: none;
+  background: transparent;
+  color: white;
+
+
+}
+
+.delete-role-button {
+  color: white;
+  border: none;
+  background: transparent;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+}
+
+
+.roles-container {
+  width: 100%;
+  height: calc(100vh - 64px);
+  /* Subtracting any top bar or header height */
+}
+
+
+.admin,
+.r-manager,
+.manager,
+.member {
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
+  background-color: #F3F3F3;
+  margin: 0 25px;
+  height: 140px;
+  width: 240px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+}
+
+.roles-box-design1 {
+  margin-left: -175px;
+  margin-top: 46%;
+  border-bottom-left-radius: 10px;
+  height: 25px;
+  width: 240px;
+  background-color: white;
+}
+
+.roles-box-design2 {
+  /* margin-left: -270px; */
+  /* margin-top: 46%; */
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  /* width: 240px; */
+  background-image: linear-gradient(-45deg, #787DBD 60%, #C6C3C3 50%);
+  /* background: linear-gradient(-45deg, #787DBD 80%, #ffffff 60%, #ffffff 80%); */
+  /* margin-bottom: -20px; */
+  /* margin-top: -30px; */
+  padding-top: 3px;
+  flex-shrink: 0;
+  height: 33px;
+
+}
+
+.roles-box-design2-disabled {
+  /* margin-left: -270px; */
+  /* margin-top: 46%; */
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  /* width: 240px; */
+  background-image: linear-gradient(-45deg, #787DBD 60%, #C6C3C3 50%);
+  /* background: linear-gradient(-45deg, #787DBD 80%, #ffffff 60%, #ffffff 80%); */
+  /* margin-bottom: -20px; */
+  /* margin-top: -30px; */
+  padding-top: 3px;
+  flex-shrink: 0;
+  height: 33px;
+
+}
+
+.roles-box-design2 a {
+  text-decoration: none !important;
+}
+
+.custom_roles_box_design {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-image: linear-gradient(-45deg, #787DBD 60%, #C6C3C3 50%);
+  padding-top: 3px;
+  flex-shrink: 0;
+  height: 33px;
+}
+
+.admin-text {
+  margin-left: 70px;
+  margin-top: -50px;
+  font-weight: bold;
+  color: #000;
+
+}
+
+
+
+/* .admin-text1{
+  margin-left: 70px;
+margin-top: -30px;
+color: #000;
+} */
+
+.box-num {
+  margin-top: 2px;
+  margin-left: 30px;
+
+}
+
+.add-btn {
+  height: 40px;
+}
+
+.add-btn:hover {
+  cursor: pointer;
+}
+
+.add_button_svg {
+  height: 40px;
+  width: 40px;
+  background-color: #aaadda;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  padding-top: 7px;
+
+}
+
+
+.add_button_text {
+  height: 40px;
+  width: 110px;
+  background-color: #787DBD;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  padding-top: 7px;
+  color: white;
+}
+
+.setting_role_create {
+  position: absolute;
+  z-index: 1000;
+}
+
+.add_button_svg:hover,
+.add_button_text:hover {
+  color: #054588;
+}
+
+
+
+.add-icon {
+  font-size: 22px;
+  margin-left: 8px;
+}
+
+.card1 {
+  width: 16rem;
+  /* height: 9rem; */
+  border-radius: 10px;
+  background: var(--inner_bg, rgba(243, 243, 243, 0.50));
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25), -10px -10px 20px 0px rgba(14, 153, 197, 0.04);
+}
+
+.custom_card1 {
+  width: 16rem;
+  border-radius: 10px;
+  background: var(--inner_bg, rgba(243, 243, 243, 0.50));
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25), -10px -10px 20px 0px rgba(14, 153, 197, 0.04);
+}
+
+.dp {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.65);
+  font-style: normal;
+  line-height: normal;
+  padding-top: 30px;
+
+
+}
+
+.dp1 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -15px;
+  padding-bottom: 30px;
+
+}
+
+
+
+.p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.65);
+  font-style: normal;
+  line-height: normal;
+  padding-top: 15px;
+}
+
+.p1 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -15px;
+  padding-bottom: 30px;
+}
+
+
+
+
+.permission {
+  font-size: 11px;
+  margin-left: 63px;
+  margin-top: -28px;
+  padding: 10px;
+  cursor: pointer;
+
+  border: none;
+  /* background-color: #787DBD; */
+  color: white;
+  text-decoration: none !important;
+  /* z-index: -1; */
+
+}
+
+
+.link-css {
+  text-decoration: none;
+  color: var(--text, rgba(0, 0, 0, 0.70));
+}
+
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+}
+
+.modal-content-roles {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  width: 700px;
+  height: 400px;
+
+
+}
+
+.modal-backdrop.show {
+  opacity: 0;
+}
+
+/* .input-group {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+  } */
+
+.input-group-role input {
+  width: 100%;
+  margin-left: 25px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.please-fill-text {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+
+
+.add_role_department {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+
+}
+
+.add_role_department input {
+  width: 300px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+
+
+.button-group {
+  display: flex;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+
+
+.add_button1 {
+  background-color: #787DBD;
+  font-size: 15px;
+  color: white;
+
+}
+
+.edit_cancel_button {
+  color: #FF7F7F;
+  background-color: white;
+  border-color: #FF7F7F;
+}
+
+.edit_button1 {
+  background-color: rgba(255, 165, 0, 0.70);
+  font-size: 15px;
+  color: white;
+
+}
+
+.edit_button1:hover {
+  background-color: rgba(255, 165, 0, 0.90);
+  color: black;
+
+}
+
+
+.edit_cancel_button:hover {
+  color: red;
+  border-color: red;
+}
+
+
+
+
+
+.add_button1:hover {
+  background-color: #4d55c3;
+  color: black;
+}
+
+.cancel_button1 {
+  color: #FF7F7F;
+  background-color: white;
+  border-color: #FF7F7F;
+}
+
+.cancel_button1:hover {
+  color: red;
+  border-color: red;
+}
+
+
+.add-role-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-color: #28a745;
+  color: white;
+  margin: 10px;
+}
+
+.add-role-btn:hover {
+  background-color: #218838;
+}
+
+/* .modal-content h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  } */
+
+.instruction-text {
+  padding-bottom: 8px;
+  border-bottom: 3px solid var(--text, rgba(0, 0, 0, 0.50));
+  color: var(--text, rgba(0, 0, 0, 0.50));
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.8px;
+}
+
+/* .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
+
+.modal-close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.setting_addrole_cancel {
+  color: rgb(84, 214, 18);
+  height: 50px;
+  width: 35px;
+  border-color: brown;
+}
+
+.setting_role_addrole {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 25px;
+
+}
+
+.setting_addrole_cancel_button {
+  background-color: #FF7F7F;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  margin-right: 25px;
+
+}
+
+.setting_addrole_cancel_button:hover {
+  cursor: pointer;
+  background-color: #e93c3c;
+}
+
+/* You might already have other modal-related styles, add these accordingly */
+
+.add_role_headline {
+  color: var(--text, rgba(0, 0, 0, 0.50));
+  font-size: 35px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+
+}
+
+
+.setting_placeholder {
+  text-align: start !important;
+  color: #161717 !important;
+  padding-left: 20px;
+  padding-top: 0px !important;
+  outline: none !important;
+  /* padding-bottom: 10px !important; */
+}
+
+.add_department_select {
+  width: 300px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  text-align: 20px;
+  padding-left: 20px;
+  color: rgba(0, 0, 0, 0.616);
+  outline-color:rgba(0, 0, 0, 0.158);
+}
+
+/* .add_department_select::after {
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+} */
+
+.setting_add_department_option {
+  padding-left: 50px !important;
+}
+
+
+
+.setting_add_role_input,
+.setting_add_department_input {
+
+  /* width:80px; */
+  padding-left: 7px;
+  padding-right: 7px;
+  position: absolute;
+  margin-top: -14px;
+  border-radius: 12px;
+  /* -webkit-border-radius:12px; */
+  background: white;
+  color: rgba(0, 0, 0, 0.50);
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: arial, sans-serif;
+  margin-left: 10px;
+  padding-top: 3px;
+  letter-spacing: 1.5px;
+
+  /* padding-bottom: 10px !important; */
+  /* padding-left: 5px;
+
+    padding-right: 5px;
+    position: absolute;
+    margin-top: -15px;
+    border-radius: 12px;
+    background-color: transparent;
+    color: var(--text, rgba(0, 0, 0, 0.50));
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: arial, sans-serif;
+    margin-left: 15px;
+    padding-top: 5px; */
+
+}
+
+.add_role,
+.add_department {
+  text-align: start !important;
+  color: #161717 !important;
+  outline: none !important;
+}
+
+.add_department {
+  width: 300px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+
+.setting_role_delete {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setting_popup_box {
+
+  background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+.confirmdelete_word_h2 {
+  text-align: start;
+  color: rgba(0, 0, 0, 0.50);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.confirmdelete_word_p {
+  text-align: start;
+  color: rgba(0, 0, 0, 0.50);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.setting_role_delete_content {
+  background: white;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.setting_role_delete_svg {
+  margin-left: 60px;
+
+}
+
+.setting_popup_box_modal_dialog {
+  top: 170px;
+
+
+
+}
+
+.setting_popup_box_modal_contect {
+  box-shadow: 5px 5px 10px 0px rgba(37, 37, 37, 0.311);
+  border: none;
+}
+
+.setting_role_delete_confirm_close {
+  /* background-color: rgb(245, 67, 67);
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+    margin-left: 280px;*/
+  border-radius: 5px;
+  background-color: #FF7F7F;
+  margin-left: 440px;
+  width: 25px;
+  height: 25px;
+
+}
+
+.setting_role_delete_confirm_close :hover {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #dc1b1b;
+}
+
+.confirmdelete_word {
+  margin-left: 10px;
+  margin-right: 40px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+
+}
+
+.setting_role_delete_button {
+  width: 100px;
+  background-color: #FF7F7F;
+  border-radius: 5px;
+  color: white;
+
+
+}
+
+.setting_role_cancel_button {
+  width: 100px;
+  border: 1px solid #FF7F7F;
+  color: #FF7F7F;
+  margin-left: 30px;
+}
+
+.setting_role_delete_button_text {
+  font-size: 14px;
+}
+
+.setting_role_cancel_button_text {
+  font-size: 14px;
+}

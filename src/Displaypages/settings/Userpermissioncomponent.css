@@ -1,0 +1,25 @@
+/* Base styles for the roles list */
+.roles ul {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+  }
+
+  .roles li {
+    padding: 10px; /* Add some padding around each list item */
+    margin: 5px; /* Spacing between list items */
+  }
+
+  /* Styling for links */
+  .link-css {
+    text-decoration: none; /* Removes underline from all links */
+    color: rgba(0, 0, 0, 0.50); /* Set a default color for text links */
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  /* Styling for active or selected links */
+  .link-css.selected {
+    border-bottom: 3px solid  #787DBD; /* Adjusts the thickness and color of the underline */
+    padding-bottom: 3px; /* Optional: Adjusts the spacing between text and underline */
+
+  }

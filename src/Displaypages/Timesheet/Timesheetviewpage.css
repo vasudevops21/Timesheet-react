@@ -1,0 +1,406 @@
+.back-button-icon-timesheet-view-icon {
+    margin-top: 2px;
+}
+
+.back-button-icon-timesheet-view-p {
+    padding-left: 10px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.employee-week-details-view-page {
+    /* border-radius: 50px; */
+    background: rgba(243, 243, 243, 0.50);
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25), -10px -10px 20px 0px #FFF;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+}
+
+.employee-name-timesheet-week-view-page {
+    margin-left: 20px;
+}
+
+.employee-name-timesheet-week-label-view-page,
+.employee-ID-timesheet-week-label-view-page,
+.employee-status-timesheet-week-label-view-page,
+.employee-current-date-timesheet-week-label-view-page,
+.employee-select-week-timesheet-calendar-label-view-page {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.employee-reported-hours-timesheet-week-label-view-page {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.employee-name-timesheet-week-box-input-view-page,
+.employee-ID-timesheet-week-box-input-view-page {
+    width: 180px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px var(--drop_shadow, rgba(0, 0, 0, 0.25));
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+
+}
+
+.employee-status-timesheet-week-box-input-view-page {
+    width: 160px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px var(--drop_shadow, rgba(0, 0, 0, 0.25));
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.employee-current-date-timesheet-week-box-input-view-page {
+    width: 205px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px var(--drop_shadow, rgba(0, 0, 0, 0.25));
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.employee-current-date-timesheet-week-box-input-icon-view-page {
+    margin-top: -3px;
+}
+
+.employee-select-week-timesheet-calendar-box-input-view-page {
+    width: 220px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px var(--drop_shadow, rgba(0, 0, 0, 0.25));
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+
+}
+
+.employee-reported-hours-timesheet-week-box-input-view-page {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.timesheet-week-calendar-wrapper-date-picker-view-page {
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+}
+
+/* table */
+
+.employee-add-entries-details-week-timesheet-view-page {
+    margin: 15px;
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 5px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFF;
+    /* border-radius: 15px;  */
+    overflow: hidden;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.custom-table th,
+.custom-table td {
+    border: none;
+}
+
+.custom-table-header-week-timesheet-entries-project-view-page,
+.custom-table-header-week-timesheet-entries-projectid-view-page {
+    background-color: #787DBD !important;
+    /* width: 60px; */
+    text-align: center;
+    align-items: center;
+    background-color: #787DBD !important;
+    color: white !important;
+    white-space: nowrap;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 14px;
+    text-align: start;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.custom-table-header-week-timesheet-entries-view-page {
+    background-color: #787DBD !important;
+    /* width: 60px; */
+    text-align: center;
+    align-items: center;
+    background-color: #787DBD !important;
+    color: white !important;
+    white-space: nowrap;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.timesheet-add-hours-box-label-view-page {
+    width: 60px;
+    text-align: center;
+
+}
+
+.custom-table-body-week-timesheet-entries-view-page {
+    text-decoration: none !important;
+    background-color: #EEECEC !important;
+    border: none !important;
+}
+
+.timesheet-weekly-select-project-view-page,
+.timesheet-weekly-select-project-description-view-page {
+    text-align: start;
+    padding-top: 20px;
+    padding-left: 15px;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    width: 180px;
+}
+
+.timesheet-weekly-pay-type-select-view-page {
+    margin-top: 14px;
+    height: 30px;
+    text-align: center;
+    width: 60px;
+    font-size: 13px;
+    background-color: #787DBD;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+    padding-right: 30px;
+    /* background: blue url('arrow.svg') no-repeat right; */
+    background-image: url("data:image/svg+xml,%3Csvg data-name='Layer 1' fill='white' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3.81 4.38 8 8.57l4.19-4.19 1.52 1.53L8 11.62 2.29 5.91l1.52-1.53z'/%3E%3C/svg%3E");
+}
+
+.timesheet-weekly-add-hours-box-show-view-page {
+    height: 45px;
+    width: 40px;
+    margin-left: 23px;
+    border: none;
+    text-align: center;
+    background-color: #EEECEC;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.50);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    outline: none;
+
+}
+
+.timesheet-weekly-add-hours-box-show-view-page::-webkit-inner-spin-button,
+.timesheet-weekly-add-hours-box-show-view-page::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.search-weekly-view-page {
+    margin-top: -70px;
+}
+
+.timesheet-weekly-comment-text-model-view-page {
+    width: 400px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: -5px -5px 5px 0px rgba(14, 153, 197, 0.08), 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.timesheet-weekly-comment-text-model-title-name-view-page {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-weekly-comment-text-model-title-date-view-page {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-weekly-comment-text-model-title-close-icon-view-page {
+    width: 25px;
+    height: 25px;
+    padding-left: 4.5px;
+    border-radius: 5px;
+    background: #FF7F7F;
+
+}
+
+.timesheet-weekly-comment-text-model-title-emptyline-view-page {
+    width: 350px;
+    height: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.50);
+    opacity: 0.3;
+}
+
+.timesheet-weekly-comment-textarea-name-view-page {
+    width: 350px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    resize: none;
+    background-color: #FFF;
+    /* box-shadow: -5px -5px 5px 0px rgba(14, 153, 197, 0.08), 5px 5px 5px 0px rgba(0, 0, 0, 0.25); */
+    color: rgba(0, 0, 0, 0.50);
+    padding: 8px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-weekly-comment-text-model-share-comment-view-page {
+    margin-top: 15px;
+    margin-right: 17px;
+    color: #38BA7C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-radius: 5px;
+    border: 1px solid #38BA7C;
+    /* opacity: 0.5; */
+}
+
+.timesheet-weekly-add-total-hours-box-show-view-page {
+    height: 45px;
+    border: none;
+    text-align: end;
+    background-color: #EEECEC;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 40px;
+    outline: none;
+    /* padding-left: 25px; */
+}
+
+.timesheet-weekly-add-new-work-hours-icon-display-delete-icon-view-page {
+    margin-top: -13px;
+    cursor: pointer;
+}
+
+.timesheet-week-regular-hours-calculation-view-page,
+.timesheet-week-overtime-hours-calculation-view-page,
+.timesheet-week-total-hours-calculation-view-page {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-right: 12px;
+    /* padding-left: 5px; */
+
+}
+
+.timesheet-week-regular-hours-calculation-final-view-page,
+.timesheet-week-overtime-hours-calculation-final-view-page,
+.timesheet-week-total-hours-calculation-final-view-page {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.empty-space-color-table-view-page {
+    height: 30px;
+    background-color: #EEECEC !important;
+}
+
+.white-space-timesheet-view-page {
+
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+}

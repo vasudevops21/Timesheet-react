@@ -1,0 +1,200 @@
+/* Wrapper for the entire chatbot component */
+.chatbot-wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Container for the chat UI */
+.chat-container {
+  width: 300px;
+  height: 400px; /* Fixed height */
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Ensure no content overflows outside the container */
+}
+
+/* Header of the chat container */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Title in the top bar */
+.chat-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Button to toggle the chat window */
+.status-button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.check-in {
+  background-color: #007bff; /* Color when chat is open */
+}
+
+.check-out {
+  background-color: #007bff; /* Color when chat is closed */
+}
+
+/* Container for chat messages */
+.response {
+  padding: 10px;
+  flex: 1;
+  overflow-y: auto; /* Scroll for overflow content */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Individual chat message */
+.chat-message {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.chat-message.user {
+  background-color: #007bff;
+  color: #ffffff;
+  align-self: flex-end;
+}
+
+.chat-message.bot {
+  background-color: #f1f1f1;
+  color: #333;
+  align-self: flex-start;
+}
+
+/* Input and send button container */
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Chat input field */
+.chatbox {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Send button styling */
+.send-button {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Toggle button for the chat window */
+.chat-toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Icon inside the toggle button */
+.toggle-icon {
+  font-size: 24px;
+}
+
+/* Tooltip that shows on hover over the toggle button */
+.chat-title-tooltip {
+  display: none;
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 4px;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: #333;
+}
+
+.chat-toggle:hover .chat-title-tooltip {
+  display: block;
+}
+
+
+
+/* Button to toggle the chat window with X icon */
+.close-button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px; /* Adjust size as needed */
+  padding: 5px;
+}
+
+/* Button to toggle the chat window with Check In text */
+.open-button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px;
+}
+
+
+/* Send button styling with arrow icon */
+.send-button {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 50%; /* Make the button circular */
+  font-size: 18px; /* Adjust size as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Arrow icon styling */
+.send-button .arrow-icon {
+  font-size: 20px; /* Adjust size as needed */
+}
+
+
+.chat-title {
+  font-size: 16px;
+  font-weight: bold; /* Makes the heading bold */
+}

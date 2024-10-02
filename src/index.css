@@ -1,0 +1,57 @@
+
+
+:root {
+    --background-topbar: #FFFFFF;
+    --background-sidebar: #787DBD;
+    --background-body: #ffffff;
+    --background-text-color: black;
+    --searchbox-color: white;
+    --search-icon: #787DBD;
+    --settings-icon: gray;
+    --sidebar-right-option: white;
+    --profile-box-shadow: 10px 8px 15px 0px rgba(0, 0, 0, 0.25), -10px -10px 20px 0px rgba(255, 255, 255, 0.25);
+    --side-top-arrow: url("./img/top-arrow.png");
+    --side-bottom-arrow: url("./img/bottom-arrow.png");
+    --sidebaricon-text-color: white;
+    --profile-text-color: rgba(8, 3, 38, 0.63);
+    --profile-background-color: #F9F9F9;
+    --profile-toggle-color: white;
+    --profile-border-color: 3px solid rgba(0, 0, 0, 0.40);
+    --profile-circle-color: 0px 1px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    --profile-toggle-text-color: rgba(0, 0, 0, 0.50);
+    --profile-circle-drobshadow: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25)) drop-shadow(-2px -2px 4px rgba(255, 255, 255, 0.25));
+    --profile-circle-fill: #fff;
+    --modal_bg:#fff;
+    --sidebar-text-color: white;
+    --org-popup-color: #787dbd;
+}
+
+/* *{
+    font-family: 'Open Sans';
+ 
+  }  */
+
+[data-theme="dark"] {
+    --background-topbar: #080326A1;
+    --background-sidebar: #273143;
+    --background-body: #1D2735;
+    --background-text-color: white;
+    --searchbox-color: #080326A1;
+    --search-icon: white;
+    --settings-icon: white;
+    --sidebar-right-option: #273143;
+    --profile-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    --side-top-arrow: url("./img/top-dark-arrow.png");
+    --side-bottom-arrow: url("./img/bottom-dark-arrow.png");
+    --sidebaricon-text-color: white;
+    --profile-text-color: #D9D9D9;
+    --profile-background-color: rgba(8, 3, 38, 0.63);
+    --profile-toggle-color: black;
+    --profile-border-color: 3px solid rgba(255, 255, 255, 0.5);
+    --profile-circle-color: 2px 2px 8px 0px rgba(255, 255, 255, 0.25) inset, -2px -2px 4px 0px rgba(255, 255, 255, 0.25) inset;
+    --profile-toggle-text-color: white;
+    --profile-circle-drobshadow: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.25)) drop-shadow(-1px -1px 1px rgba(255, 255, 255, 0.25));
+    --profile-circle-fill: #000;
+    --sidebar-text-color: white;
+    --modal_bg:#273143;
+}

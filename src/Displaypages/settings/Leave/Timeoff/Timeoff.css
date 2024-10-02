@@ -1,0 +1,520 @@
+.Timeoff_fullbody {
+  width: 100%;
+  height: calc(100vh - 64px);
+  overflow: auto;
+ 
+}
+ 
+.settings-Timeoff-body {
+  background-color: rgba(255, 255, 255, 1);
+  height: 330px;
+ 
+  overflow-y: auto;
+ 
+ 
+}
+ 
+ 
+.settings-Timeoff-body-h {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  margin-top: 25px;
+  margin-bottom: 11px;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25),
+             -5px -5px 10px 0px rgba(195, 216, 247, 0.25);
+}
+.table-head {
+  background-color: rgba(255, 255, 255, 1);
+  position: sticky;
+  top: 0;
+ 
+}
+ 
+.settings-Timeoff-line {
+  border-bottom: 1px solid #ccc;
+  margin-top: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+ 
+ 
+.settings-Timeoff-line-values {
+  border-bottom: 1px solid #ccc;
+  margin-top: -10px;
+  margin-left: 30px;
+ 
+}
+ 
+ 
+.setting-Timeoff-button-div {
+  position: relative;
+  cursor: pointer;
+ 
+  border: none;
+  margin-bottom: 10px;
+}
+ 
+ 
+ 
+.settings-Timeoff-add_button_icon {
+  height: 40px;
+  width: 40px;
+  background-color: #aaadda;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  padding-top: 7px;
+ 
+}
+ 
+.settings-Timeoff-add-button-text {
+  height: 40px;
+  width: 110px;
+  background-color: #535ab7;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  padding-top: 7px;
+  color: white;
+  outline: none;
+ 
+}
+ 
+.settings-Timeoff-heading {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+ 
+}
+ 
+.settings-Timeoff-item {
+  margin-left: 10px;
+ 
+}
+ 
+ 
+ 
+ 
+.settings-Timeoff-table {
+ 
+  overflow-y: auto !important;
+}
+ 
+.settings-Timeoff-first-heading {
+  padding-top: 4px;
+  color:rgba(0, 0, 0, 0.5) ;
+}
+.settings-Timeoff-heading1{
+  width: 25%;
+}
+ 
+ 
+.settings-Timeoff-mid-heading {
+  color:rgba(0, 0, 0, 0.5) ;
+  padding-top: 4px;
+  text-wrap: nowrap;
+ 
+}
+.settings-Timeoff-heading2{
+  width: 25%;
+}
+ 
+ 
+.settings-Timeoff-last-heading {
+  padding-top: 4px;
+padding-left: 50px;
+color:rgba(0, 0, 0, 0.5) ;
+ 
+}
+.settings-Timeoff-heading3{
+  width: 25%;
+ 
+}
+.settings-Timeoff-heading4{
+  width: 25%;
+}
+ 
+.settings-Timeoff-action-button{
+  display: flex;
+ 
+}
+ 
+.setting_Timeoff_edit_btn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+ 
+.setting_Timeoff_add_row_table {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+ 
+ 
+ 
+.Settings-Timeoff-popup-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+ 
+}
+ 
+ 
+.Settings-Timeoff-popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 700px;
+  height: 450px;
+ 
+ 
+}
+ 
+ 
+.Settings-Timeoff-popup-setupTimeoff {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 25px;
+ 
+}
+ 
+.Settings-Timeoff-popup-headline {
+  color: rgba(0, 0, 0, 0.50);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+ 
+}
+ 
+ 
+.Settings-Timeoff-popup_cancel_button {
+  background-color: #FF7F7F;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  margin-right: 25px;
+ 
+}
+ 
+.Settings-Timeoff-popup_cancel_button:hover {
+  cursor: pointer;
+  background-color: #e93c3c;
+}
+ 
+ 
+.Settings-Timeoff-popup-fill-text {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+ 
+.Settings-Timeoff-popup-instruction-text {
+  padding-bottom: 8px;
+  border-bottom: 3px solid var(--text, rgba(0, 0, 0, 0.50));
+  color: var(--text, rgba(0, 0, 0, 0.50));
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  color: hsla(0, 0%, 0%, 0.5) !important;
+}
+ 
+ 
+.Settings-Timeoff-popup-Timeoff {
+  display: flex;
+  justify-content: space-around !important;
+  margin-top: 30px;
+}
+ 
+
+ 
+ 
+ 
+.Settings-Timeoff-popup-add-Timeoff,
+.Settings-Timeoff-popup-add-date {
+  text-align: start !important;
+  color: #161717 !important;
+  outline: none !important;
+}
+ 
+ 
+ 
+.Settings-Timeoff-popup-add-Timeoff-input,
+.Settings-Timeoff-popup-add-date-input {
+  padding-left: 7px;
+  padding-right: 7px;
+  position: absolute;
+  margin-top: -14px;
+  border-radius: 12px;
+  background: white;
+  color: rgba(0, 0, 0, 0.50);
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: arial, sans-serif;
+  margin-left: 10px;
+  padding-top: 3px;
+  z-index: 1;
+}
+ 
+ 
+ 
+.Settings-Timeoff-popup-add-Timeoff-input-placeholder,
+.Settings-Timeoff-popup-add-date-inputplaceholder {
+  outline: none;
+  width: 300px;
+  height: 50px;
+  padding-left: 15px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+ 
+ 
+.Settings-Timeoff-popup-button-group {
+  display: flex;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+ 
+ 
+.Settings-Timeoff-popup-button-group-edit_button {
+  background-color: rgba(255, 165, 0, 0.70);
+  font-size: 15px;
+  color: white;
+ 
+}
+ 
+.Settings-Timeoff-popup-button-group-edit_button:hover {
+  background-color: rgba(255, 165, 0, 0.90);
+  color: black;
+ 
+}
+ 
+ 
+.Settings-Timeoff-popup-button-group-add_button {
+  background-color: #787DBD;
+  font-size: 15px;
+  color: white;
+ 
+}
+ 
+.Settings-Timeoff-popup-button-group-add_button:hover {
+  background-color: #4d55c3;
+  color: black;
+}
+ 
+.Settings-Timeoff-popup-edit-cancel-button {
+  color: #FF7F7F;
+  background-color: white;
+  border-color: #FF7F7F;
+}
+ 
+ 
+ 
+.Settings-Timeoff-popup-edit-cancel-button:hover {
+  color: red;
+  border-color: red;
+}
+ 
+ 
+ 
+.settings-button-cancel {
+  color: #FF7F7F;
+  background-color: white;
+  border-color: #FF7F7F;
+}
+ 
+.settings-button-cancel:hover {
+  color: red;
+  border-color: red;
+}
+ 
+ 
+ 
+ 
+ 
+.settings-btn {
+  border-radius: 5px !important;
+background: var(--side_bar, #787DBD) !important;
+border: none;
+color: white;
+text-wrap: nowrap;
+ 
+ 
+}
+ 
+.settings-icon-btn {
+  font-size: 14px !important;
+  height: 40px;
+  color: white;
+ padding-top: 12px !important;
+  border-radius: 5px 0px 0px 5px;
+  background: var(--search_bg, #aaadda);
+}
+ 
+.table-add-btn {
+  text-align: end !important;
+ 
+}
+ 
+ 
+.custom-cancel-button {
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+}
+ 
+.custom-cancel-button:hover {
+  background-color: #ffe6e6;
+}
+ 
+ 
+.setting_popup_box_Timeoff_blur{
+ 
+  background-color: rgba(255, 255, 255, 0.7);
+ 
+}
+ 
+ 
+.setting_popup_box_Timeoff_modal_dialog{
+  top: 170px;
+}
+ 
+ 
+.setting_popup_box_Timeoff_modal_contect{
+  box-shadow: 5px 5px 10px 0px  rgba(37, 37, 37, 0.311);
+  border: none;
+}
+ 
+.setting_role_delete_Timeoff_confirm_close{
+  border-radius: 5px;
+  background-color: #FF7F7F;
+  margin-left: 440px;
+  width: 25px;
+  height: 25px;
+}
+ 
+ 
+.setting_role_delete_Timeoff_confirm_close :hover{
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #dc1b1b;
+}
+ 
+.setting_role_delete_svg_Timeoff{
+  margin-left: 60px;
+ 
+}
+ 
+ 
+.confirmdelete_word_Timeoff{
+  margin-left: 10px;
+  margin-right: 40px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+ 
+}
+ 
+ 
+.confirmdelete_word_h2_Timeoff{
+  text-align: start;
+  color: rgba(0, 0, 0, 0.50);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.confirmdelete_word_p_Timeoff{
+  text-align: start;
+  color: rgba(0, 0, 0, 0.50);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+ 
+.setting_role_delete_button_Timeoff{
+  width: 100px;
+  background-color:  #FF7F7F;
+  border-radius: 5px;
+  color: white;
+ 
+}
+ 
+ 
+.setting_role_delete_button_text_Timeoff{
+  font-size: 14px;
+}
+ 
+ 
+.setting_cancel_button_Timeoff{
+  width: 100px;
+  border: 1px solid #FF7F7F;
+  color: #FF7F7F;
+  margin-left: 30px;
+}
+ 
+ 
+.setting_role_cancel_button_text_Timeoff{
+  font-size: 14px;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.setting_Timeoff_table_row_item .setting_Timeoff_table_cell {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ 
+ 
+ 
+.settings-Timeoff-border-none .no-border {
+  border-top: none;
+  border-bottom: none !important;
+  margin-bottom: 10px !important;
+}
+ 
+ 
+ 
+.no-border .heading-div {
+  border-bottom: 1px solid rgb(199, 193, 193);
+  margin-top: 5px;
+  padding-bottom: 10px;
+}
+ 
+ 
+ 
+ 
+.settigs-Timeoff-table-head{
+  background-color: rgba(255, 255, 255, 1);
+  position: sticky !important;
+  top: 0 !important;
+ 
+}
+
+
+.Settings-Timeoff-popup-add-pay-type{
+  margin-left: 18px;
+margin-top: 40px;
+}
+
+

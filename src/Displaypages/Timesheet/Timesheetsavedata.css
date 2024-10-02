@@ -1,0 +1,591 @@
+.timesheet-save-draft-data {
+    border-radius: 20px;
+    background: rgba(243, 243, 243, 0.50);
+    box-shadow: -10px -10px 20px 0px rgba(195, 216, 247, 0.25), 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.timesheet-week-table-column-filter-button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    padding-top: 1px;
+}
+
+.timesheet-week-table-column-filter-button-and-icon {
+    height: 30px;
+    width: 80px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25), -1px -1px 4px 0px rgba(255, 255, 255, 0.25);
+}
+
+.timesheet-week-table-column-filter-button-div {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.timesheet-week-table-column-filter-button-div-icon {
+    color: rgba(0, 0, 0, 0.50);
+    opacity: 0.5;
+}
+
+/* .filter-data-column-popup{
+  background-color: rgba(0, 0, 0, 0.50);
+} */
+.filter-data-column-popup-model-dialog {
+    /* margin-left: -23%;
+    margin-top: 250px; */
+    top: 250px;
+    left: -338px;
+}
+
+.filter-data-column-popup-body-label {
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.filter-data-column-popup-body-label-reset-all {
+    border-radius: 5px;
+    background: #FF7F7F;
+    height: 25px;
+    width: 80px;
+}
+
+.filter-data-column-popup-body-label-reset-all:hover {
+    background: #FF7F7F;
+}
+
+.filter-data-column-popup-body-label-reset-all-div {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.filter-data-column-popup-body-title {
+    /* font-size: 16px;
+    font-weight: bold;
+    padding: 1px;
+    width: 50% !important; */
+
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.timesheet-week-table-save-data-view-button {
+    border-radius: 5px;
+    background: #38BA7C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* width: 81px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    /* height: 30px; */
+    flex-shrink: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    /* padding-top: 3px; */
+    margin-bottom: 20px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-week-table-save-data-view-button:hover {
+    background-color: #20955c;
+    color: #FFF;
+    /* opacity: 0.7; */
+}
+
+.timesheet-week-table-save-data-edit-button {
+    border-radius: 5px;
+    background: rgba(22, 68, 229, 0.64);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* width: 71px; */
+    padding-left: 18px;
+    padding-right: 18px;
+    /* height: 30px; */
+    flex-shrink: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    /* padding-top: 3px; */
+    margin-bottom: 20px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-week-table-save-data-edit-button:hover {
+    background: rgba(14, 42, 142, 0.64);
+    color: #FFF;
+}
+
+.timesheet-week-table-save-data-delete-button {
+    border-radius: 5px;
+    background: rgba(255, 71, 76, 0.84);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 81px;
+    /* height: 30px; */
+    flex-shrink: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    /* padding-top: 3px; */
+    margin-bottom: 20px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-week-table-save-data-delete-button:hover {
+    background: rgba(171, 41, 45, 0.84);
+    color: #FFF;
+}
+
+/* .timesheet-save-draft-data-table th, .timesheet-save-draft-data-table td{
+    border: none;
+} */
+/* .timesheet-save-draft-data-table-head-th-column{
+    background-color: #787DBD !important;
+    color: white !important;
+    position: sticky !important;
+    top: 0 !important;
+} */
+.timesheet-save-draft-data-table-head-th-checkbox {
+    background-color: #787DBD !important;
+    color: white !important;
+    white-space: nowrap;
+    /* position: sticky !important;
+    top: 0 !important; */
+}
+
+.timesheet-save-draft-data-table-head-tr-checkbox {
+    margin-top: 15px;
+    margin-bottom: 22px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.timesheet-save-draft-data-table-head-tr-column {
+    white-space: nowrap;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.table {
+    overflow: visible !important;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.timesheet-save-draft-data-table-weekly {
+    margin-top: 10px;
+    margin-left: 13px;
+    margin-right: 10px;
+    /* margin-bottom: 10px; */
+    border-radius: 5px;
+    max-height: 350px !important;
+    overflow: auto !important;
+
+}
+
+/* .timesheet-save-draft-data-table thead tr th {
+    position: sticky;
+    top: 0;
+    background-color: #787DBD;
+    z-index: 1;
+    color: white;
+  } */
+/* .timesheet-save-draft-data-table thead {
+    position: sticky !important;
+    top: 0 !important;
+    background-color: #787DBD;
+    z-index: 1;
+  } */
+
+/* .timesheet-save-draft-data-table-body{
+    max-height: 300px !important;
+    overflow-y: auto;
+} */
+.timesheet-save-draft-data-table-head-option {
+    width: 250px;
+    background-color: #787DBD !important;
+    color: white !important;
+
+}
+
+.timesheet-save-draft-data-table-head-option-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 500;
+    text-align: center;
+}
+
+.timesheet-save-draft-data-table-head-tr {
+    /* height: 80px; */
+    background-color: #787DBD !important;
+    position: sticky !important;
+    top: 0 !important;
+    text-align: center;
+}
+
+.timesheet-save-draft-data-table-body-tr {
+
+    align-items: center;
+    text-align: center;
+}
+
+.timesheet-save-draft-data-table-body-td-checkbox {
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.timesheet-save-draft-data-table-body-td-column {
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-save-draft-data-table-body-td-column-td,
+.timesheet-save-draft-data-table-body-td-option-td,
+.timesheet-save-draft-data-table-body-td-checkbox-td {
+    /* background-color: #EEECEC !important; */
+    background-color: rgba(243, 243, 243, 0.50) !important;
+    /* background-color: transparent; */
+}
+
+.timesheet-save-draft-data-table-body-tr-empty {
+    height: 30px;
+    /* background-color: #EEECEC !important; */
+    background-color: rgba(243, 243, 243, 0.50) !important;
+}
+
+.timesheet-weekly-save-draft-data-submit-button {
+    width: 95px;
+    height: 45px;
+    flex-shrink: 0;
+    /* text-align: center; */
+    align-items: center;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 50px;
+    background: #38BA7C;
+
+}
+
+.timesheet-weekly-save-draft-data-submit-button-icon {
+    /* margin-top: 2.5px; */
+    margin-right: 6px;
+}
+
+.timesheet-weekly-save-draft-data-submit-button:hover {
+    background-color: #20955c;
+}
+
+.timesheet-weekly-save-draft-data-submit-button-div {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-top: 2.5px; */
+}
+
+.timesheet-weekly-save-draft-data-submit-and-cancel-button {
+    margin-top: 20px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    height: 37px;
+}
+
+.timesheet-weekly-draft-view-option-model {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -180px;
+    margin-left: 60px;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+    background-color: #FFF;
+}
+
+.timesheet-weekly-draft-view-option-model-dialog {
+    margin: 25% !important;
+    position: absolute !important;
+}
+
+.timesheet-weekly-draft-view-option-modal-header {
+
+    width: 600px;
+    border: none;
+}
+
+.timesheet-weekly-draft-view-option-modal-header-h4 {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    align-items: center;
+}
+
+.timesheet-weekly-draft-view-option-model-close-icon {
+    background: #F34542;
+    border: none;
+    border-radius: 5px;
+}
+
+.timesheet-weekly-draft-view-option-modal-body {
+    width: 600px;
+    border: none;
+    margin-top: -15px;
+}
+
+.timesheet-weekly-draft-view-option-modal-body-empty-line {
+    width: 150px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.50);
+}
+
+.timesheet-weekly-draft-view-option-modal-body-empname-input,
+.timesheet-weekly-draft-view-option-modal-body-empid-input {
+    width: 300px;
+    border: none;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-weekly-draft-view-option-modal-body-empname-label,
+.timesheet-weekly-draft-view-option-modal-body-empid-label,
+.timesheet-weekly-draft-view-option-modal-body-project-label,
+.timesheet-weekly-draft-view-option-modal-body-totalvacation-label-div,
+.timesheet-weekly-draft-view-option-modal-body-totalholidays-label-div,
+.timesheet-weekly-draft-view-option-modal-body-totalleave-label-div,
+.timesheet-weekly-draft-view-option-modal-body-totalreports-label-div {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: start;
+}
+
+.timesheet-weekly-draft-view-option-modal-body-totalreports-label {
+    margin-left: 100px;
+    margin-top: -140px;
+}
+
+.timesheet-weekly-draft-view-option-modal-body-project-select-div {
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    background: rgba(243, 243, 243, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.timesheet-weekly-draft-view-option-modal-body-project-select {
+    width: 160px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: rgba(243, 243, 243, 0.50);
+
+    border-radius: 10px;
+    color: var(--text, rgba(0, 0, 0, 0.50));
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timesheet-weekly-draft-view-option-modal-body-totalvacation-input,
+.timesheet-weekly-draft-view-option-modal-body-totalholidays-input,
+.timesheet-weekly-draft-view-option-modal-body-totalleave-input,
+.timesheet-weekly-draft-view-option-modal-body-totalreports-input {
+    width: 100px;
+    border: none;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+
+.filter-data-column-popup .modal-content {
+    /* width:50% !important; */
+    width: 220px;
+    text-wrap: nowrap;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(166, 165, 165, 0.795);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #787DBD;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #787DBD;
+}
+
+.deleteconformationpopupModalLabel-draft-timesheet-delete {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.draft-timesheet-weekly-delete-conformation-model-content {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* margin-top: -180px; */
+    /* width: 630px; */
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.draft-timesheet-weekly-delete-conformation-model-close-icon {
+    margin-top: 15px;
+    border-radius: 5px;
+    background: #FF7F7F;
+    border: none;
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+}
+.draft-timesheet-weekly-delete-conformation-model-heading-div-head{
+    text-align: start;
+}
+.draft-timesheet-weekly-delete-conformation-model-heading-div {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.draft-timesheet-weekly-delete-conformation-model-heading-div-p {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.draft-timesheet-weekly-delete-conformation-button-delete-btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #FF7F7F;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.draft-timesheet-weekly-delete-conformation-button-delete-btn:hover {
+    background-color: #FF7F7F;
+    color: #FFF;
+}
+
+.draft-timesheet-weekly-delete-conformation-button-delete-div {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.draft-timesheet-weekly-delete-conformation-button-cancel-btn {
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.draft-timesheet-weekly-delete-conformation-button-cancel-btn:hover {
+    background-color: #D9D9D9;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+.draft-timesheet-weekly-delete-conformation-button-cancel-div {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

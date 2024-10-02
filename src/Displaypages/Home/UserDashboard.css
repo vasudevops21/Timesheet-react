@@ -1,0 +1,271 @@
+.user-dashboard {
+width: 100%;
+  height: calc(100vh - 64px);
+  overflow: auto;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .dashboard {
+    background-color: #f3e8ff;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .header {
+    background-color: #d8b4fe;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .header-info {
+    text-align: right;
+  }
+  
+ 
+  .main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+  }
+  
+  .dashboard-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .dashboard-subtitle {
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+
+  .usercard {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-purple {
+    background-color: #e9d5ff;
+  }
+  
+  .card-red {
+    background-color: #fecaca;
+  }
+  
+  .card h3 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+ 
+  .total-hours {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .previous-week {
+    font-size: 0.875rem;
+    color: #666;
+  }
+
+
+  .status-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .status-item {
+    text-align: center;
+  }
+  
+  .status-circle {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 4px solid;
+    display: inline-block;
+  }
+  
+  .status-approved { border-color: #22c55e; }
+  .status-rejected { border-color: #f97316; }
+  .status-not-submitted { border-color: #6b7280; }
+  .status-submitted { border-color: #3b82f6; }
+  
+  
+  .project-hours {
+    display: flex;
+    align-items: flex-end;
+    height: 8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-bar {
+    flex: 1;
+    margin-right: 0.5rem;
+    background-color: #fbbf24;
+  }
+  
+  .project-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+  }
+
+  .progress-circle {
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .progress-circle svg {
+    transform: rotate(-90deg);
+  }
+  
+  .progress-circle-bg {
+    fill: none;
+    stroke: #e5e7eb;
+    stroke-width: 3;
+  }
+  
+  .progress-circle-value {
+    fill: none;
+    stroke: #3b82f6;
+    stroke-width: 3;
+    stroke-linecap: round;
+    transition: stroke-dasharray 0.3s ease;
+  }
+  
+  .progress-circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .progress-bar-container {
+    margin-top: 1rem;
+  }
+  
+  .progress-bar-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.25rem;
+  }
+  
+  .progress-bar {
+    height: 0.5rem;
+    background-color: #e5e7eb;
+    border-radius: 9999px;
+    overflow: hidden;
+  }
+  
+  .progress-bar-value {
+    height: 100%;
+    border-radius: 9999px;
+  }
+  
+  .progress-bar-worked-hours { background-color: #3b82f6; }
+  .progress-bar-billable-hours { background-color: #ef4444; }
+  
+
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .calendar-nav {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .calendar-nav-button {
+    background-color: #e5e7eb;
+    border: none;
+    border-radius: 9999px;
+    padding: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+    text-align: center;
+  }
+  
+  .calendar-day {
+    padding: 0.5rem;
+  }
+  
+  .calendar-day-header {
+    color: #666;
+    font-weight: bold;
+  }
+  
+  .calendar-day-highlight {
+    background-color: #ef4444;
+    color: white;
+    border-radius: 9999px;
+  }
+
+  .loading, .error {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.25rem;
+  }
+  
+  .error {
+    color: #ef4444;
+  }
+  
+
+  @media (max-width: 768px) {
+    .main-content {
+      grid-template-columns: 1fr;
+    }
+  
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }

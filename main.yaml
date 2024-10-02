@@ -1,0 +1,79 @@
+# Starter pipeline
+# - task: SonarQubePostTest@1
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+variables:
+  MajorVersion: 1
+  MinorVersion: 0
+  PatchVersion: 0
+pr:
+  branches:
+    include:
+      - release/main
+trigger:
+  branches:
+    include:
+      - release/main
+name: '$(MajorVersion).$(MinorVersion).$(PatchVersion).$(Rev:r)'
+jobs:
+   - job: Build_DEV
+     pool:
+       name: 'Default'
+     steps:
+    #  - task: SonarQubePrepare@4
+    #    displayName: 'Prepare analysis on SonarQube'
+    #    inputs:
+    #      SonarQube: 'darwin' # Your SonarQube service connection name
+    #      scannerMode: 'CLI'
+    #      configMode: 'manual'
+    #      cliProjectKey: 'Timesheet'
+    #      cliProjectName: 'Timesheet'
+    #      cliSources: '$(Build.SourcesDirectory)'
+
+     - task: PowerShell@2
+       displayName: npm build
+       inputs:
+         targetType: 'inline'
+         script: |
+          npm install -f
+          npm install jquery
+          npm run build
+         workingDirectory: $(System.DefaultWorkingDirectory)
+
+
+     - task: PowerShell@2
+       displayName: Move build to IIS Server
+       inputs:
+         targetType: 'inline'
+         script: |
+           $source = "$(System.DefaultWorkingDirectory)\build\*"
+           $destination = "C:\inetpub\wwwroot"
+           Copy-Item -Path $source -Destination $destination -Recurse -Force
+         workingDirectory: $(System.DefaultWorkingDirectory)
+
+    #  - task: SonarQubeAnalyze@4
+    #    displayName: 'Run Code Analysis'
+
+    #  - task: PowerShell@2
+    #    displayName: build Move to XAMPP Server
+    #    inputs:
+    #      targetType: 'inline'
+    #      script: |
+    #        #Move-Item -Path "C:\agent\_work\1\s\build\*" -Destination "C:\inetpub\wwwroot" -Recurse -Force
+    #        Move-Item .\build\* -Destination "C:\inetpub\wwwroot\" -Force
+    #      workingDirectory: $(System.DefaultWorkingDirectory)
+    #  - task: CopyFiles@2
+    #    inputs:
+    #     contents: '**/*'
+    #     targetFolder: 'C:\inetpub\wwwroot'
+    #    displayName: 'Copy files to wwwroot'
+
+     - task: PowerShell@2
+       displayName: Clean Directory
+       inputs:
+         targetType: 'inline'
+         script: |
+           Get-ChildItem  -Recurse  | Select -ExpandProperty FullName | sort length -Descending | Remove-Item -Recurse
+         workingDirectory: $(System.DefaultWorkingDirectory)

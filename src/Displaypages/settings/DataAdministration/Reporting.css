@@ -1,0 +1,120 @@
+/* Base styles for the roles list */
+.roles ul {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+  }
+
+  .roles li {
+    padding: 10px; /* Add some padding around each list item */
+    margin: 5px; /* Spacing between list items */
+  }
+
+  /* Styling for links */
+  .link-css {
+    text-decoration: none; /* Removes underline from all links */
+    color: rgba(0, 0, 0, 0.50); /* Set a default color for text links */
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  /* Styling for active or selected links */
+  .link-css.selected {
+    border-bottom: 3px solid  #787DBD; /* Adjusts the thickness and color of the underline */
+    padding-bottom: 3px; /* Optional: Adjusts the spacing between text and underline */
+
+  }
+
+.roles-container {
+  width: 100%;
+  height: calc(100vh - 64px);
+  /* Subtracting any top bar or header height */
+  overflow: auto;
+}
+
+.audit_data_table thead tr th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background: white;
+}
+
+.audit_data_table tbody tr td {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+}
+
+
+
+.data_administration_pagination_right_icon {
+  rotate: 180deg;
+  color: white;
+  background-color: #787DBD;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.data_administration_current_page{
+  background-color: #787DBD;
+  color: white;
+  border: none;
+  outline: none;
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.data_administration_secondary_page{
+  background-color: white;
+  color: black;
+  border: none;
+  outline: none;
+}
+
+.data_administration_pagination{
+  border-radius: 5px;
+  background: var(--inner_bg, rgba(243, 243, 243, 0.50));
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.data_administration_first_and_last_page {
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+.data_administration_pagination_left_icon{
+  color: white;
+  background-color: #787DBD;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.data_administration_pagination_left_icon_1 {
+  background-color: #9fa1c0;
+  color: rgb(217, 211, 211);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.data_administration_pagination_right_icon_lastpage {
+  rotate: 180deg;
+  background-color: #9fa1c0;
+  color: rgb(217, 211, 211);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.data_administration_pagination_rowsperpage {
+  border-radius: 5px;
+  background: var(--inner_bg, rgba(243, 243, 243, 0.50));
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  outline: none;
+}
