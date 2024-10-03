@@ -8,3 +8,5 @@ sonar.language=javascript
 sonar.sourceEncoding=UTF-8
 sonar.javascript.packageJsonPath=package.json
 sonar.login=sqp_78d002868eda37bf790cc5324c8ad3dd7ea016b3
+
+
